@@ -1,0 +1,63 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=TML_Cfg 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=250 Scope=60 Force=60 Index=20 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                            ErrorMgr_Txt                         STRING[63][0..4]    0 "                                                               *"    0    9   64    0    0    1         
+                         ErrorMgr_Txt[0]                               STRING[63]    0 "                                                          ': 00'"    1    9   64    1    0    0         
+                         ErrorMgr_Txt[1]                               STRING[63]    0 "                                     'Drive: INDX: CANbus Error'"    1    9   64    1    0    0         
+                         ErrorMgr_Txt[2]                               STRING[63]    0 "                                              ' -------------- '"    1    9   64    1    0    0         
+                         ErrorMgr_Txt[3]                               STRING[63]    0 "                                              ' -------------- '"    1    9   64    1    0    0         
+                         ErrorMgr_Txt[4]                               STRING[63]    0 "                                              ' -------------- '"    1    9   64    1    0    0         
+                                ErrorMgr                            ERROR_Mgr_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                   Error                                     SINT    0 "                                                               0"    1    2    1   10    0    0         
+                            lastItemIndx                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                                 history                             UINT[0..127]    0 "                                                               *"    1    6  128    0    0    1         
+                              history[0]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              history[1]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              history[2]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              history[3]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              history[4]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              history[5]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              history[6]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              history[7]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              history[8]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                              history[9]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                             history[10]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                             history[11]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                            history[105]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                            history[107]                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                    logs                      LogItem_typ[0..127]    0 "                                                               *"    1   24  128    0    0    0         
+                                 logs[0]                              LogItem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                               timeStamp                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
+                                  status                                      INT    0 "                                                               0"    3    3    1   10    0    0         
+                                   value                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                                     txt                               STRING[31]    0 "                                                              ''"    3    9   32    1    0    0         
+                                 logs[1]                              LogItem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                               timeStamp                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
+                                  status                                      INT    0 "                                                               0"    3    3    1   10    0    0         
+                                   value                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                                     txt                               STRING[31]    0 "                                                              ''"    3    9   32    1    0    0         
+                                 logs[2]                              LogItem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                               timeStamp                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
+                                  status                                      INT    0 "                                                               0"    3    3    1   10    0    0         
+                                   value                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                                     txt                               STRING[31]    0 "                                                              ''"    3    9   32    1    0    0         
+                                 logs[3]                              LogItem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                               timeStamp                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
+                                  status                                      INT    0 "                                                               1"    3    3    1   10    0    0         
+                                   value                                    UDINT    0 "                                                               1"    3    7    1   10    0    0         
+                                     txt                               STRING[31]    0 "                                                              ''"    3    9   32    1    0    0         
+                                 logs[4]                              LogItem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                               timeStamp                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
+                                  status                                      INT    0 "                                                               0"    3    3    1   10    0    0         
+                                   value                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                                     txt                               STRING[31]    0 "                                                              ''"    3    9   32    1    0    0         
+                                 logs[5]                              LogItem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                               timeStamp                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
+                                  status                                      INT    0 "                                                               0"    3    3    1   10    0    0         
+                                   value                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                                     txt                               STRING[31]    0 "                                                              ''"    3    9   32    1    0    0         
+                                 logs[6]                              LogItem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                               timeStamp                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
+                                  status                                      INT    0 "                                                               *"    3    3    1   10    0    0         
+                                   value                                    UDINT    0 "                                                               *"    3    7    1   10    0    0         
+                                     txt                               STRING[31]    0 "                                                               *"    3    9   32    1    0    0         

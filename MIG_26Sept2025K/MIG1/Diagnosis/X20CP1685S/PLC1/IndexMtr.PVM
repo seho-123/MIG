@@ -1,0 +1,33 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=IndexMtr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=22 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                 GlobalPermission_Switch                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                IndexJog                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    1         
+                                      IN                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,Stop
+
+                                 Indexer                              Indexer_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                     Run                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                           Limit_Forward                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                           Limit_Reverse                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               Direction                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                Sequence                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   Start                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              ManualStep                                     SINT    0 "                                                               0"    1    2    1   10    0    0         
+                           Speed_Forward                                    UDINT    0 "                                                        67696308"    1    7    1   10    0    0         
+                           Speed_Reverse                                    UDINT    0 "                                                        67696416"    1    7    1   10    0    0         
+                               Speed_Jog                                    UDINT    0 "                                                        67696524"    1    7    1   10    0    0         
+                                   Speed                                      INT    0 "                                                               0"    1    3    1   10    0    0         
+                                   state                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                            Reverse_time                                    UDINT    0 "                                                        67696740"    1    7    1   10    0    0         
+                            Forward_time                                    UDINT    0 "                                                        67696632"    1    7    1   10    0    0         
+                             PreDly_time                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                            PostDly_time                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                   timer                                      TON    0 "                                                               *"    1   24    1    0    0    1         
+                                      IN                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                           T#02s"    2   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                           T#0ms"    2   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                             T#02h_32m_51s_870ms"    2   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                 Restart                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                  period                                     UINT    0 "                                                            1000"    1    6    1   10    0    0         

@@ -1,0 +1,20 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=UDP_Client 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=604 Type=434 Scope=60 Force=272 Index=16 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   SrvIP                               STRING[19]    0 "                                                 '192.168.10.11'"    0    9   20    1    1    0         
+                               UDP_Ready                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                            Kick_TML_Cmd                                    USINT    0 "                                                               0"    0    5    1   10    0    0         
+                            TML_Msg_Chan                     RS_Channel_typ[0..1]    0 "                                                               *"    0   24    2    0    0    1         
+                         TML_Msg_Chan[1]                           RS_Channel_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  Status                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                     Len                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                    Cntr                                    UDINT    0 "                                                           16141"    2    7    1   10    0    0         
+                              Trash_Cntr                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                  Msg_ID                                     UINT    0 "                                                             193"    2    6    1   10    0    0         
+                           TML_Data_Chan                     RS_Channel_typ[0..1]    0 "                                                               *"    0   24    2    0    0    1         
+                        TML_Data_Chan[1]                           RS_Channel_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  Status                                    USINT    0 "                                                              10"    2    5    1   10    0    0         
+                                     Len                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                    Cntr                                    UDINT    0 "                                                          139967"    2    7    1   10    0    0         
+                              Trash_Cntr                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                  Msg_ID                                     UINT    0 "                                                             193"    2    6    1   10    0    0         

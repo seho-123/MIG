@@ -1,0 +1,53 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=LocalJog 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=463 Type=267 Scope=246 Force=361 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                       LED_One_Blink_Req                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                KK_Blink                                     REAL    0 "                                                             0.5"    0    8    1   10    1    0         
+                                 LED_CMD                                     UINT    0 "                                                               0"    0    6    1   10    0    0         
+                                LED_Step                                     UINT    0 "                                                               0"    0    6    1   10    1    0         
+                                LED_Indx                                     UINT    0 "                                                               7"    0    6    1   10    1    0         
+                        LED_Static_Style                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                           _LocalJogMode                                    USINT    0 "                                                           16#00"    0    5    1   16    1    0         
+                                   blink                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                            KK_MakeBlink                                     BOOL    0 "                                                               *"    0    1    1    2    1    0         
+                              HardwReady                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                            TML_MTR_INST                           TML_typ[0..15]    0 "                                                               *"    0   24   16    0    0    0         
+                         TML_MTR_INST[0]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    0         
+                             DigOut_stat                               BOOL[0..3]    0 "                                                               *"    2    1    4    0    0    0         
+                          DigOut_stat[0]                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                          DigOut_stat[1]                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                          DigOut_stat[2]                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                          DigOut_stat[3]                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    xCMD                                    USINT    0 "                                                               *"    2    5    1   10    0    0         
+                                ErrorReg                                     UINT    0 "                                                               *"    2    6    1   16    0    0         
+                                  DigInp                               BOOL[0..3]    0 "                                                               *"    2    1    4    0    0    0         
+                               DigInp[0]                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                               DigInp[1]                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                         TML_MTR_INST[4]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                              ''"    2    9   16    1    0    0         
+                             DigOut_stat                               BOOL[0..3]    0 "                                                               *"    2    1    4    0    0    0         
+                          DigOut_stat[3]                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                  AHCJog                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    0         
+                                      IN                                     DINT    0 "                                                               *"    1    4    1   10    0    0 e,0,Stop
+
+                             JogMode_Tmr                                      TON    0 "                                                               *"    0   24    1    0    1    0         
+                                      IN                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                               *"    1   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              OSCJog_Cmd                                     SINT    0 "                                                               0"    0    2    1   10    0    0         
+                                    Head                                 HEAD_typ    0 "                                                               *"    0   24    1    0    0    0         
+                               Remote_SW                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            LocalJog_FWD                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            LocalJog_REV                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                IndexJog                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    0         
+                                      IN                                     DINT    0 "                                                               *"    1    4    1   10    0    0 e,0,Stop
+
+                            LocalJogMode                                    USINT    0 "                                                               0"    0    5    1   10    0    0         
+                            LocalJog_FWD                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
+                            LocalJog_REV                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
+                               TravelJog                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    0         
+                                      IN                                     DINT    0 "                                                               *"    1    4    1   10    0    0 e,0,Stop
+
+                                   WFJog                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    0         
+                                      IN                                     DINT    0 "                                                               *"    1    4    1   10    0    0 e,0,Stop
+

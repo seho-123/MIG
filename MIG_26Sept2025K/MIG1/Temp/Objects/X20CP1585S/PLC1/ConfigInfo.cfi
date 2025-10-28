@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.7.113 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="UDP_Client"
+      Disable="false"
+      Source="UDP_Client"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\UDP_Client\UDP_ClientLocal.var" />
+    </Task>
+    <Task
+      Name="TML_srv"
+      Disable="false"
+      Source="TML_srv"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\TML_srv\TML_srvLocal.var" />
+    </Task>
+    <Task
+      Name="ESAB"
+      Disable="false"
+      Source="ESAB"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\ESAB\ESABLocal.var" />
+    </Task>
+    <Task
+      Name="LincolnPS"
+      Disable="false"
+      Source="LincolnPS"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\LincolnPS\LincolnPSLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="MainProc"
+      Disable="false"
+      Source="MainProc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\MainProc\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\MainProc\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\MainProc\MainProcLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="Master"
+      Disable="false"
+      Source="Master"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\Master\MasterLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="LocalJog"
+      Disable="false"
+      Source="LocalJog"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\LocalJog\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\LocalJog\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\LocalJog\LocalJogLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5">
+    <Task
+      Name="HMI_Report"
+      Disable="false"
+      Source="HMI_Report"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\HMI_Report\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\HMI_Report\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\HMI_Report\HMI_ReportLocal.var" />
+    </Task>
+    <Task
+      Name="HMI"
+      Disable="false"
+      Source="HMI"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\HMI\HMILocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8">
+    <Task
+      Name="Program"
+      Disable="false"
+      Source="Program"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Program\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Program\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\Program\ProgramLocal.var" />
+    </Task>
+    <Task
+      Name="TcpCam"
+      Disable="false"
+      Source="TcpCam"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TcpCam\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TcpCam\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\TcpCam\TcpCamLocal.var" />
+    </Task>
+    <Task
+      Name="UDP"
+      Disable="false"
+      Source="UDP"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\UDP\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\UDP\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1585S\PLC1\UDP\UDPLocal.var" />
+    </Task>
+  </TaskClass>
+</ConfigInfo>

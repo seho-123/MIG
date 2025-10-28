@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="MaintPop">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.visMaint]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="800"/>
+  <TextGroup>
+    <TextLayer LanguageId="en">
+      <Text ID="103457" Value="Please Enter Password:"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="103457" Value="Text_1"/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="103457" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="103457" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="103457" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-BR">
+      <Text ID="103457" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt">
+      <Text ID="103457" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv">
+      <Text ID="103457" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="103457" Value="1"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="351"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+      <Property Name="Top" Value="55"/>
+      <Property Name="Width" Value="800"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="800"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="16"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+      <Property Name="Height" Value="150"/>
+      <Property Name="Left" Value="92"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="164"/>
+      <Property Name="Width" Value="604"/>
+    </Control>
+    <Control ClassId="0x0000100C" Name="Password_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial12px]"/>
+      <Property Name="Height" Value="52"/>
+      <Property Name="Left" Value="193"/>
+      <Property Name="LevelDatapoint" Value="Source[global].Variable[DataSource.visMaint]"/>
+      <Property Name="MaxLevel" Value="2"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Password]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Passwords]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="214"/>
+      <Property Name="Width" Value="402"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

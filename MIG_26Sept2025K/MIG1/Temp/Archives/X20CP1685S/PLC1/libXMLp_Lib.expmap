@@ -1,0 +1,9 @@
+{
+  global:
+    XMLp_CallParse;
+    XMLp_CallCreate;
+    XMLp_Init;
+    XMLp_Destroy;
+  local:
+    *;
+ };

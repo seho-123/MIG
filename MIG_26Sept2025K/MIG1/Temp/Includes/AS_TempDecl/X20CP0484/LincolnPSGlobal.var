@@ -1,0 +1,9 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	gRingBuffer : bgRingBuffer_typ;	(* #1"C:/projects/MIG/MIG/Logical/LincolnPS/..\Lib\utilityLib\bgdebug.h" #2"54" #3"26" *)
+	SEQUENCE_NUMBER : UINT;	(* #1"C:/projects/MIG/MIG/Logical/LincolnPS/..\Lib\arclink\Handler.c" #2"16" #3"14" *)
+	ArcLink : Arc_Link_typ;	(* #1"C:/projects/MIG/MIG/Logical/LincolnPS/LincolnPS.c" #2"26" #3"22" *)
+END_VAR

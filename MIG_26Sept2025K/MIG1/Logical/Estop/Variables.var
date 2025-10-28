@@ -1,0 +1,6 @@
+VAR CONSTANT
+	maxStation : USINT := 13;
+END_VAR
+VAR
+	estop : ARRAY[0..maxStation] OF Estop_typ;
+END_VAR

@@ -1,0 +1,34 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=MainProc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=469 Type=281 Scope=162 Force=30 Index=10 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           KK_Aply_Estop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                     KK_DoNotStopOnError                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                           HardInit_Step                                     UINT    0 "                                                              50"    0    6    1   10    0    0         
+                             ENABLE_sign                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                       TML_MTR_CUT_POWER                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                    ErrorFromMaster_flag                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                         SequenceRun_OSC                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                         SequenceRun_Out                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          SequenceRun_WF                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                 MachCfg                          Mach_Config_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                  Indxon                                     SINT    0 "                                                               1"    1    2    1   10    0    0         
+                                 IndxExt                                     SINT    0 "                                                               0"    1    2    1   10    0    0         
+                       TrigStep_INDX_TVL                                     SINT    0 "                                                               1"    1    2    1   10    0    0         
+                            TML_MTR_INST                           TML_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                         TML_MTR_INST[4]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                          'INDX'"    2    9   16    1    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                               StatusReg                                    UDINT    0 "                                                    16#0021_8000"    2    7    1   16    0    0         
+                                ErrorReg                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                         TML_MTR_INST[5]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  DigInp                               BOOL[0..3]    0 "                                                               *"    2    1    4    0    0    1         
+                               DigInp[0]                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                               DigInp[1]                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                               DigInp[2]                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                               DigInp[3]                                     BOOL    0 "                                                            TRUE"    3    1    1    2    0    0         
+                                    Name                               STRING[15]    0 "                                                      'INDX_EXT'"    2    9   16    1    0    0         
+                               INDX_Step                                     UINT    0 "                                                              10"    0    6    1   10    0    0         
+                           INDX_Step_Cmd                                     SINT    0 "                                                               0"    0    2    1   10    0    0         
+                                TVL_Step                                     UINT    0 "                                                              10"    0    6    1   10    0    0         
+                            TVL_Step_Cmd                                     SINT    0 "                                                               0"    0    2    1   10    0    0         

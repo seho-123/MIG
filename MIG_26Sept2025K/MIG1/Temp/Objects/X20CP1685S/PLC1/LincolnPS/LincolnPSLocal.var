@@ -1,0 +1,15 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_ReadParamData : BOOL;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/LincolnPS/LincolnPS.c" #2"56" #3"15" *)
+	ArcLinkPLC_IP_Address : ARRAY[0..15] OF SINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/LincolnPS/LincolnPS.c" #2"52" #3"13" *)
+	ArcLinkPS_IP_Address : ARRAY[0..15] OF SINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/LincolnPS/LincolnPS.c" #2"51" #3"13" *)
+	ArcLink_Run : BOOL;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/LincolnPS/LincolnPS.c" #2"53" #3"15" *)
+	Run_DispatchOutgoingMessages : BOOL;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/LincolnPS/LincolnPS.c" #2"48" #3"15" *)
+	ArcLink_UDP : UDP_typ2;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/LincolnPS/LincolnPS.c" #2"47" #3"17" *)
+	RingBufOut : RingBuffer;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/LincolnPS/LincolnPS.c" #2"39" #3"19" *)
+	RingBufIn : RingBuffer;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/LincolnPS/LincolnPS.c" #2"38" #3"19" *)
+	arcLink : REFERENCE TO Arc_Link_typ;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/LincolnPS/LincolnPS.c" #2"46" #3"21" *)
+END_VAR

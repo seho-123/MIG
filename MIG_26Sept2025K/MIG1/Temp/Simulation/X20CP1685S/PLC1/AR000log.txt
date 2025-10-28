@@ -1,0 +1,21 @@
+Fri Sep  5 08:21:09 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri Sep  5 08:21:09 2025
+No ARsim registration found!
+
+Fri Sep  5 08:21:09 2025
+InstanceName: 00000556d4e08eef
+
+Fri Sep  5 08:21:09 2025
+WorkingDirectory: C:\projects\MIG\MIG_05Sept2025K_report\Temp\Simulation\X20CP1685S\PLC1\
+
+Fri Sep  5 08:21:09 2025
+COMMAND_COLDSTART
+
+Fri Sep  5 08:21:11 2025
+Version: J4.93
+
+Fri Sep  5 08:22:00 2025
+COMMAND_TERMINATE
+

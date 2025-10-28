@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=8</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=* /DAIP=192.168.10.123 /REPO=11159 /ANSL=1</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\projects\MIG\MIG_26Sept2025K\MIG1\MIG1.apj</ApjFullFileName>
+    <ProjectName>MIG1</ProjectName>
+    <ActiveConfigurationName>X20CP1685S</ActiveConfigurationName>
+    <LicenseDataFolder>C:\projects\MIG\MIG_26Sept2025K\MIG1\Temp\Objects\X20CP1685S\PLC1</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

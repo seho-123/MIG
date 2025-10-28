@@ -1,0 +1,15 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=HMI 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                            EditBox_Indx                                     UINT    0 "                                                               0"    0    6    1   10    0    0         
+                              NewEditBox                                     UINT    0 "                                                               0"    0    6    1   10    1    0         
+                           TravelSpeedAO                           Analog_Out_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                    Name                               STRING[80]    0 "                                       'TravelSpeed [inch//min]'"    1    9   81    1    0    0         
+                                Low_Incr                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                               High_Incr                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                     OUT                                      INT    3 "                                                           16383"    1    3    1   10    0    0         
+                                 low_out                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                                high_out                                     REAL    0 "                                                         32767.0"    1    8    1   10    0    0         
+                                  low_in                                     REAL    0 "                                                          -100.0"    1    8    1   10    0    0         
+                                 high_in                                     REAL    0 "                                                           100.0"    1    8    1   10    0    0         
+                                      IN                                    UDINT    0 "                                                        77159856"    1    7    1   10    0    0         

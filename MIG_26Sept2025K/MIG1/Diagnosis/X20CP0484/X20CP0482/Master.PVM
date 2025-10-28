@@ -1,0 +1,23 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Master 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=9 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                 GlobalPermission_Switch                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                         SequenceRun_Out                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          HMI_Travel_Fwd                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                          HMI_Travel_Rev                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                             TravelSpeed                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    1         
+                                      IN                                     DINT    0 "                                                               1"    1    4    1   10    0    0 e,0,Stop
+
+                                     OUT                               BOOL[0..3]    0 "                                                               *"    1    1    4    0    0    1         
+                                  OUT[0]                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                                  OUT[1]                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                  OUT[2]                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                                  OUT[3]                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                 Forward                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                 Reverse                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Stop                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Indexer                              Indexer_typ    0 "                                                               *"    0   24    1    0    0    1         
+                           Limit_Forward                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                           Limit_Reverse                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                     Seq                                 Sequence    0 "                                                               *"    0   24    1    0    0    1         
+                                   State                                     UINT    0 "                                                               0"    1    6    1   10    0    0         

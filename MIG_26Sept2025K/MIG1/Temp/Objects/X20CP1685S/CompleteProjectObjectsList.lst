@@ -1,0 +1,1544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.7.113 SP"?>
+<Objects>
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="134015484302646987" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\GlobalDef.h"
+    LogicalPath="GlobalDef.h"
+    Type="File"
+    LastWriteTime="134033636530030276"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\GlobalDecl.h"
+    LogicalPath="GlobalDecl.h"
+    Type="File"
+    LastWriteTime="134015484302566991"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="134015484302501766"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="134015484302531798"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="134015484305391092" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="134015484314009592" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="134015484314039587"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="134015484314069577"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="134015484314099623"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="134015484314389593" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="134015484314479744"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="134015484314439691"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="134015484314419698"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="134015484309827771" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="134015484309707730"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="134015484309737748"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="134015484309787755"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="134015484307806766" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="134015484307686763"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="134015484307736760"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="134015484307766764"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsUDP\Binary.lby"
+    LogicalPath="Libraries.AsUDP"
+    Type="Library"
+    LastWriteTime="134015484310228479" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsUDP\AsUDP.var"
+    LogicalPath="Libraries.AsUDP.AsUDP.var"
+    Type="File"
+    LastWriteTime="134015484310178374"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsUDP\AsUDP.typ"
+    LogicalPath="Libraries.AsUDP.AsUDP.typ"
+    Type="File"
+    LastWriteTime="134015484310148084"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsUDP\AsUDP.fun"
+    LogicalPath="Libraries.AsUDP.AsUDP.fun"
+    Type="File"
+    LastWriteTime="134015484310117979"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="134015484314924974" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="134015484314954967"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="134015484314984973"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="134015484315024985"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\dvframe\binary.lby"
+    LogicalPath="Libraries.dvframe"
+    Type="Library"
+    LastWriteTime="134015484311759087" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\dvframe\dvframe.fun"
+    LogicalPath="Libraries.dvframe.dvframe.fun"
+    Type="File"
+    LastWriteTime="134015484311809069"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\dvframe\dvframe.typ"
+    LogicalPath="Libraries.dvframe.dvframe.typ"
+    Type="File"
+    LastWriteTime="134015484311839056"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\dvframe\dvframe.var"
+    LogicalPath="Libraries.dvframe.dvframe.var"
+    Type="File"
+    LastWriteTime="134015484311869074"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\asstring\Binary.lby"
+    LogicalPath="Libraries.asstring"
+    Type="Library"
+    LastWriteTime="134015484309082162" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\asstring\asstring.fun"
+    LogicalPath="Libraries.asstring.asstring.fun"
+    Type="File"
+    LastWriteTime="134015484309052170"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsTCP\binary.lby"
+    LogicalPath="Libraries.AsTCP"
+    Type="Library"
+    LastWriteTime="134015484309462375" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsTCP\AsTCP.fun"
+    LogicalPath="Libraries.AsTCP.AsTCP.fun"
+    Type="File"
+    LastWriteTime="134015484309352195"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsTCP\AsTCP.typ"
+    LogicalPath="Libraries.AsTCP.AsTCP.typ"
+    Type="File"
+    LastWriteTime="134015484309392162"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsTCP\AsTCP.var"
+    LogicalPath="Libraries.AsTCP.AsTCP.var"
+    Type="File"
+    LastWriteTime="134015484309432410"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsHydCon\Binary.lby"
+    LogicalPath="Libraries.AsHydCon"
+    Type="Library"
+    LastWriteTime="134015484307181547" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsHydCon\AsHydCon.fun"
+    LogicalPath="Libraries.AsHydCon.AsHydCon.fun"
+    Type="File"
+    LastWriteTime="134015484307051554"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsHydCon\AsHydCon.var"
+    LogicalPath="Libraries.AsHydCon.AsHydCon.var"
+    Type="File"
+    LastWriteTime="134015484307151556"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsHydCon\AsHydCon.typ"
+    LogicalPath="Libraries.AsHydCon.AsHydCon.typ"
+    Type="File"
+    LastWriteTime="134015484307121541"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\sys_lib\Binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="134015484315284970" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="134015484315404939"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="134015484315354939"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="134015484315324985"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\brsystem\Binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="134015484311044357" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="134015484311113719"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="134015484311073723"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\LoopConR\Binary.lby"
+    LogicalPath="Libraries.LoopConR"
+    Type="Library"
+    LastWriteTime="134015484312894294" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\LoopConR\LoopConR.var"
+    LogicalPath="Libraries.LoopConR.LoopConR.var"
+    Type="File"
+    LastWriteTime="134015484312994292"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\LoopConR\LoopConR.typ"
+    LogicalPath="Libraries.LoopConR.LoopConR.typ"
+    Type="File"
+    LastWriteTime="134015484312954291"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\LoopConR\LoopConR.fun"
+    LogicalPath="Libraries.LoopConR.LoopConR.fun"
+    Type="File"
+    LastWriteTime="134015484312924279"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\DataObj\binary.lby"
+    LogicalPath="Libraries.DataObj"
+    Type="Library"
+    LastWriteTime="134015484311373709" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\DataObj\DataObj.fun"
+    LogicalPath="Libraries.DataObj.DataObj.fun"
+    Type="File"
+    LastWriteTime="134015484311403702"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\DataObj\DataObj.typ"
+    LogicalPath="Libraries.DataObj.DataObj.typ"
+    Type="File"
+    LastWriteTime="134015484311433823"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\DataObj\DataObj.var"
+    LogicalPath="Libraries.DataObj.DataObj.var"
+    Type="File"
+    LastWriteTime="134015484311483794"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsIOTime\binary.lby"
+    LogicalPath="Libraries.AsIOTime"
+    Type="Library"
+    LastWriteTime="134015484308206776" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsIOTime\AsIOTime.fun"
+    LogicalPath="Libraries.AsIOTime.AsIOTime.fun"
+    Type="File"
+    LastWriteTime="134015484308106804"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsIOTime\AsIOTime.typ"
+    LogicalPath="Libraries.AsIOTime.AsIOTime.typ"
+    Type="File"
+    LastWriteTime="134015484308137026"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsIOTime\AsIOTime.var"
+    LogicalPath="Libraries.AsIOTime.AsIOTime.var"
+    Type="File"
+    LastWriteTime="134015484308166831"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsMbTCPS\binary.lby"
+    LogicalPath="Libraries.AsMbTCPS"
+    Type="Library"
+    LastWriteTime="134015484308712134" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsMbTCPS\AsMbTCPS.fun"
+    LogicalPath="Libraries.AsMbTCPS.AsMbTCPS.fun"
+    Type="File"
+    LastWriteTime="134015484308602158"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsMbTCPS\AsMbTCPS.typ"
+    LogicalPath="Libraries.AsMbTCPS.AsMbTCPS.typ"
+    Type="File"
+    LastWriteTime="134015484308632175"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsMbTCPS\AsMbTCPS.var"
+    LogicalPath="Libraries.AsMbTCPS.AsMbTCPS.var"
+    Type="File"
+    LastWriteTime="134015484308682124"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\bglibas\ANSIC.lby"
+    LogicalPath="Libraries.bglibas"
+    Type="Library"
+    LastWriteTime="134015484310753695" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\bglibas\bglibas.typ"
+    LogicalPath="Libraries.bglibas.bglibas.typ"
+    Type="File"
+    LastWriteTime="134015484310874270"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\bglibas\bglibas.var"
+    LogicalPath="Libraries.bglibas.bglibas.var"
+    Type="File"
+    LastWriteTime="134015484310904337"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\bglibas\bglibas.fun"
+    LogicalPath="Libraries.bglibas.bglibas.fun"
+    Type="File"
+    LastWriteTime="134015484310834448"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\bglibas\bgssm.c"
+    LogicalPath="Libraries.bglibas.bgssm.c"
+    Type="File"
+    LastWriteTime="134015484310934402"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\bglibas\bgfifo.c"
+    LogicalPath="Libraries.bglibas.bgfifo.c"
+    Type="File"
+    LastWriteTime="134015484310793752"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\bglibas\bgTimer1ms.c"
+    LogicalPath="Libraries.bglibas.bgTimer1ms.c"
+    Type="File"
+    LastWriteTime="134015484310984296"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsXml\Binary.lby"
+    LogicalPath="Libraries.AsXml"
+    Type="Library"
+    LastWriteTime="134015484310603830" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsXml\AsXml.var"
+    LogicalPath="Libraries.AsXml.AsXml.var"
+    Type="File"
+    LastWriteTime="134015484310573707"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsXml\AsXml.typ"
+    LogicalPath="Libraries.AsXml.AsXml.typ"
+    Type="File"
+    LastWriteTime="134015484310538487"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsXml\AsXml.fun"
+    LogicalPath="Libraries.AsXml.AsXml.fun"
+    Type="File"
+    LastWriteTime="134015484310508977"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\sprintf2\ANSIC.lby"
+    LogicalPath="Libraries.sprintf2"
+    Type="Library"
+    LastWriteTime="134015484314745018" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\sprintf2\cvtflasc.c"
+    LogicalPath="Libraries.sprintf2.cvtflasc.c"
+    Type="File"
+    LastWriteTime="134015484314774970"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\sprintf2\ofmt.c"
+    LogicalPath="Libraries.sprintf2.ofmt.c"
+    Type="File"
+    LastWriteTime="134015484314824979"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\sprintf2\sprintf.c"
+    LogicalPath="Libraries.sprintf2.sprintf.c"
+    Type="File"
+    LastWriteTime="134015484314844995"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\sprintf2\sprintf2.h"
+    LogicalPath="Libraries.sprintf2.sprintf2.h"
+    Type="File"
+    LastWriteTime="134015484314874971"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\NcGlobal\Binary.lby"
+    LogicalPath="Libraries.NcGlobal"
+    Type="Library"
+    LastWriteTime="134015484313464386" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\NcGlobal\NcGlobal.fun"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.fun"
+    Type="File"
+    LastWriteTime="134015484313504378"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\NcGlobal\NcGlobal.typ"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.typ"
+    Type="File"
+    LastWriteTime="134015484313534375"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\NcGlobal\NcGlobal.var"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.var"
+    Type="File"
+    LastWriteTime="134015484313589590"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\Acp10man\Binary.lby"
+    LogicalPath="Libraries.Acp10man"
+    Type="Library"
+    LastWriteTime="134015484305706278" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\Acp10man\Acp10man.typ"
+    LogicalPath="Libraries.Acp10man.Acp10man.typ"
+    Type="File"
+    LastWriteTime="134015484305576249"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\Acp10par\Binary.lby"
+    LogicalPath="Libraries.Acp10par"
+    Type="Library"
+    LastWriteTime="134015484306741543" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\Acp10par\Acp10par.var"
+    LogicalPath="Libraries.Acp10par.Acp10par.var"
+    Type="File"
+    LastWriteTime="134015484306711523"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsMbTCP\binary.lby"
+    LogicalPath="Libraries.AsMbTCP"
+    Type="Library"
+    LastWriteTime="134015484308456856" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsMbTCP\AsMbTCP.fun"
+    LogicalPath="Libraries.AsMbTCP.AsMbTCP.fun"
+    Type="File"
+    LastWriteTime="134015484308346784"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsMbTCP\AsMbTCP.typ"
+    LogicalPath="Libraries.AsMbTCP.AsMbTCP.typ"
+    Type="File"
+    LastWriteTime="134015484308376782"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsMbTCP\AsMbTCP.var"
+    LogicalPath="Libraries.AsMbTCP.AsMbTCP.var"
+    Type="File"
+    LastWriteTime="134015484308406782"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsSafety\binary.lby"
+    LogicalPath="Libraries.AsSafety"
+    Type="Library"
+    LastWriteTime="134015484308932161" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsSafety\AsSafety.fun"
+    LogicalPath="Libraries.AsSafety.AsSafety.fun"
+    Type="File"
+    LastWriteTime="134015484308822156"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsSafety\AsSafety.typ"
+    LogicalPath="Libraries.AsSafety.AsSafety.typ"
+    Type="File"
+    LastWriteTime="134015484308872176"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\AsSafety\AsSafety.var"
+    LogicalPath="Libraries.AsSafety.AsSafety.var"
+    Type="File"
+    LastWriteTime="134015484308902196"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileIO\binary.lby"
+    LogicalPath="Libraries.FileIO"
+    Type="Library"
+    LastWriteTime="134015484312429166" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileIO\FileIO.fun"
+    LogicalPath="Libraries.FileIO.FileIO.fun"
+    Type="File"
+    LastWriteTime="134015484312469172"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileIO\FileIO.typ"
+    LogicalPath="Libraries.FileIO.FileIO.typ"
+    Type="File"
+    LastWriteTime="134015484312499165"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileIO\FileIO.var"
+    LogicalPath="Libraries.FileIO.FileIO.var"
+    Type="File"
+    LastWriteTime="134015484312529167"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileUser\ANSIC.lby"
+    LogicalPath="Libraries.FileUser"
+    Type="Library"
+    LastWriteTime="134015484312674278" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileUser\FileUser.fun"
+    LogicalPath="Libraries.FileUser.FileUser.fun"
+    Type="File"
+    LastWriteTime="134015484312694287"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileUser\FileUser.typ"
+    LogicalPath="Libraries.FileUser.FileUser.typ"
+    Type="File"
+    LastWriteTime="134015484312744275"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileUser\FileUser.var"
+    LogicalPath="Libraries.FileUser.FileUser.var"
+    Type="File"
+    LastWriteTime="134015484312774289"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileUser\FileUserSource.c"
+    LogicalPath="Libraries.FileUser.FileUserSource.c"
+    Type="File"
+    LastWriteTime="134015484312804297"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\FileUser\FU_setMem.c"
+    LogicalPath="Libraries.FileUser.FU_setMem.c"
+    Type="File"
+    LastWriteTime="134015484312834275"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\XMLp_Lib\ANSIC.lby"
+    LogicalPath="Libraries.XMLp_Lib"
+    Type="Library"
+    LastWriteTime="134015484316120201" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\XMLp_Lib\XMLp_Lib.fun"
+    LogicalPath="Libraries.XMLp_Lib.XMLp_Lib.fun"
+    Type="File"
+    LastWriteTime="134015484316170208"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\XMLp_Lib\XMLp_Lib.typ"
+    LogicalPath="Libraries.XMLp_Lib.XMLp_Lib.typ"
+    Type="File"
+    LastWriteTime="134015484316200226"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\XMLp_Lib\XMLp_Lib.var"
+    LogicalPath="Libraries.XMLp_Lib.XMLp_Lib.var"
+    Type="File"
+    LastWriteTime="134015484316230215"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\XMLp_Lib\xml_def.h"
+    LogicalPath="Libraries.XMLp_Lib.xml_def.h"
+    Type="File"
+    LastWriteTime="134015484316260207"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\XMLp_Lib\xml_lib.c"
+    LogicalPath="Libraries.XMLp_Lib.xml_lib.c"
+    Type="File"
+    LastWriteTime="134015484316300177"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\ETHERNET\binary.lby"
+    LogicalPath="Libraries.ETHERNET"
+    Type="Library"
+    LastWriteTime="134015484312139056" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\ETHERNET\Ethernet.fun"
+    LogicalPath="Libraries.ETHERNET.Ethernet.fun"
+    Type="File"
+    LastWriteTime="134015484312169046"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\ETHERNET\Ethernet.typ"
+    LogicalPath="Libraries.ETHERNET.Ethernet.typ"
+    Type="File"
+    LastWriteTime="134015484312209051"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\ETHERNET\Ethernet.var"
+    LogicalPath="Libraries.ETHERNET.Ethernet.var"
+    Type="File"
+    LastWriteTime="134015484312249055"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\visapi\Binary.lby"
+    LogicalPath="Libraries.visapi"
+    Type="Library"
+    LastWriteTime="134015484315680140" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\visapi\Visapi.typ"
+    LogicalPath="Libraries.visapi.Visapi.typ"
+    Type="File"
+    LastWriteTime="134015484315840204"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\visapi\Visapi.fun"
+    LogicalPath="Libraries.visapi.Visapi.fun"
+    Type="File"
+    LastWriteTime="134015484315800186"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Libraries\visapi\Visapi.var"
+    LogicalPath="Libraries.visapi.Visapi.var"
+    Type="File"
+    LastWriteTime="134015484315870241"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Visu\Vc.dob"
+    LogicalPath="Visu"
+    Type="DataObject"
+    LastWriteTime="134015484319562276" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Visu\VCObject.vc"
+    LogicalPath="Visu.VCObject.vc"
+    Type="File"
+    LastWriteTime="134015484319622549"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Visu1\Vc.dob"
+    LogicalPath="Visu1"
+    Type="DataObject"
+    LastWriteTime="134015484330612686" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Visu1\VCObject.vc"
+    LogicalPath="Visu1.VCObject.vc"
+    Type="File"
+    LastWriteTime="134015484330652755"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\IO\ANSIC.prg"
+    LogicalPath="IO"
+    Type="Program"
+    LastWriteTime="134015484303795002" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\IO\IO.c"
+    LogicalPath="IO.IO.c"
+    Type="File"
+    LastWriteTime="134015484303825113"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\IO\Types.typ"
+    LogicalPath="IO.Types.typ"
+    Type="File"
+    LastWriteTime="134015484303874870"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\IO\Variables.var"
+    LogicalPath="IO.Variables.var"
+    Type="File"
+    LastWriteTime="134015484303904738"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\UDP\ANSIC.prg"
+    LogicalPath="UDP"
+    Type="Program"
+    LastWriteTime="134015484317680895" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\UDP\UDP.c"
+    LogicalPath="UDP.UDP.c"
+    Type="File"
+    LastWriteTime="134015484317760937"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\UDP\Types.typ"
+    LogicalPath="UDP.Types.typ"
+    Type="File"
+    LastWriteTime="134015484317710884"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\UDP\Variables.var"
+    LogicalPath="UDP.Variables.var"
+    Type="File"
+    LastWriteTime="134015484317790894"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\IndexMtr\ANSIC.prg"
+    LogicalPath="IndexMtr"
+    Type="Program"
+    LastWriteTime="134015484303622719" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\IndexMtr\IndexMtr.c"
+    LogicalPath="IndexMtr.IndexMtr.c"
+    Type="File"
+    LastWriteTime="134015484303663040"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\IndexMtr\Types.typ"
+    LogicalPath="IndexMtr.Types.typ"
+    Type="File"
+    LastWriteTime="134015484303695087"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\IndexMtr\Variables.var"
+    LogicalPath="IndexMtr.Variables.var"
+    Type="File"
+    LastWriteTime="134015484303734653"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TcpCam\ANSIC.prg"
+    LogicalPath="TcpCam"
+    Type="Program"
+    LastWriteTime="134015484317075522" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TcpCam\TcpCam.c"
+    LogicalPath="TcpCam.TcpCam.c"
+    Type="File"
+    LastWriteTime="134015484317175539"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TcpCam\Types.typ"
+    LogicalPath="TcpCam.Types.typ"
+    Type="File"
+    LastWriteTime="134015484317205525"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TcpCam\Variables.var"
+    LogicalPath="TcpCam.Variables.var"
+    Type="File"
+    LastWriteTime="134015484317225521"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TcpCam\bgsprintf.c"
+    LogicalPath="TcpCam.bgsprintf.c"
+    Type="File"
+    LastWriteTime="134015484317105513"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TcpCam\bgsprintf.h"
+    LogicalPath="TcpCam.bgsprintf.h"
+    Type="File"
+    LastWriteTime="134015484317145552"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Program\ANSIC.prg"
+    LogicalPath="Program"
+    Type="Program"
+    LastWriteTime="134015484316925512" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Program\Main.c"
+    LogicalPath="Program.Main.c"
+    Type="File"
+    LastWriteTime="134015484316945514"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Program\Types.typ"
+    LogicalPath="Program.Types.typ"
+    Type="File"
+    LastWriteTime="134015484316975508"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Program\Variables.var"
+    LogicalPath="Program.Variables.var"
+    Type="File"
+    LastWriteTime="134015484317025516"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Estop\ANSIC.prg"
+    LogicalPath="Estop"
+    Type="Program"
+    LastWriteTime="134015484303196963" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Estop\Main.c"
+    LogicalPath="Estop.Main.c"
+    Type="File"
+    LastWriteTime="134015484303226966"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Estop\Types.typ"
+    LogicalPath="Estop.Types.typ"
+    Type="File"
+    LastWriteTime="134015484303256971"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Estop\Variables.var"
+    LogicalPath="Estop.Variables.var"
+    Type="File"
+    LastWriteTime="134015484303276961"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\HMI\ANSIC.prg"
+    LogicalPath="HMI"
+    Type="Program"
+    LastWriteTime="134015484303356955" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\HMI\HMI.c"
+    LogicalPath="HMI.HMI.c"
+    Type="File"
+    LastWriteTime="134015484303386962"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Master\ANSIC.prg"
+    LogicalPath="Master"
+    Type="Program"
+    LastWriteTime="134015484316815524" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Master\Master.c"
+    LogicalPath="Master.Master.c"
+    Type="File"
+    LastWriteTime="134033045173840349"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TML_srv\ANSIC.prg"
+    LogicalPath="TML_srv"
+    Type="Program"
+    LastWriteTime="134015484317570912" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TML_srv\TML_srv.c"
+    LogicalPath="TML_srv.TML_srv.c"
+    Type="File"
+    LastWriteTime="134015484317620883"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TML_Cfg\ANSIC.prg"
+    LogicalPath="TML_Cfg"
+    Type="Program"
+    LastWriteTime="134015484317425623" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TML_Cfg\TML_Cfg.c"
+    LogicalPath="TML_Cfg.TML_Cfg.c"
+    Type="File"
+    LastWriteTime="134015484317445676"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TML_Cfg\Types.typ"
+    LogicalPath="TML_Cfg.Types.typ"
+    Type="File"
+    LastWriteTime="134015484317495634"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\TML_Cfg\Variables.var"
+    LogicalPath="TML_Cfg.Variables.var"
+    Type="File"
+    LastWriteTime="134015484317515663"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\MainProc\ANSIC.prg"
+    LogicalPath="MainProc"
+    Type="Program"
+    LastWriteTime="134015484316635524" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\MainProc\MainProc.c"
+    LogicalPath="MainProc.MainProc.c"
+    Type="File"
+    LastWriteTime="134015484316675521"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\MainProc\Types.typ"
+    LogicalPath="MainProc.Types.typ"
+    Type="File"
+    LastWriteTime="134015484316705514"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\MainProc\Variables.var"
+    LogicalPath="MainProc.Variables.var"
+    Type="File"
+    LastWriteTime="134015484316755524"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\BR_Modbus\ANSIC.prg"
+    LogicalPath="BR_Modbus"
+    Type="Program"
+    LastWriteTime="134015484302717022" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\BR_Modbus\BR_Modbus.c"
+    LogicalPath="BR_Modbus.BR_Modbus.c"
+    Type="File"
+    LastWriteTime="134015484302776991"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\BR_Modbus\Types.typ"
+    LogicalPath="BR_Modbus.Types.typ"
+    Type="File"
+    LastWriteTime="134015484302816985"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\BR_Modbus\Variables.var"
+    LogicalPath="BR_Modbus.Variables.var"
+    Type="File"
+    LastWriteTime="134015484302856984"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\UDP_Client\ANSIC.prg"
+    LogicalPath="UDP_Client"
+    Type="Program"
+    LastWriteTime="134015484317850890" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\UDP_Client\UDP_Client.c"
+    LogicalPath="UDP_Client.UDP_Client.c"
+    Type="File"
+    LastWriteTime="134015484317880858"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Calibr\ANSIC.prg"
+    LogicalPath="Calibr"
+    Type="Program"
+    LastWriteTime="134015484302926970" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Calibr\Clibr.c"
+    LogicalPath="Calibr.Clibr.c"
+    Type="File"
+    LastWriteTime="134015484302956968"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Calibr\Types.typ"
+    LogicalPath="Calibr.Types.typ"
+    Type="File"
+    LastWriteTime="134015484302997007"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Calibr\Variables.var"
+    LogicalPath="Calibr.Variables.var"
+    Type="File"
+    LastWriteTime="134015484303026971"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\LincolnPS\ANSIC.prg"
+    LogicalPath="LincolnPS"
+    Type="Program"
+    LastWriteTime="134015484316370185" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\LincolnPS\LincolnPS.c"
+    LogicalPath="LincolnPS.LincolnPS.c"
+    Type="File"
+    LastWriteTime="134015484316400188"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\LocalJog\ANSIC.prg"
+    LogicalPath="LocalJog"
+    Type="Program"
+    LastWriteTime="134015484316480302" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\LocalJog\LocalJog.c"
+    LogicalPath="LocalJog.LocalJog.c"
+    Type="File"
+    LastWriteTime="134015484316510309"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\LocalJog\Types.typ"
+    LogicalPath="LocalJog.Types.typ"
+    Type="File"
+    LastWriteTime="134015484316540364"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\LocalJog\Variables.var"
+    LogicalPath="LocalJog.Variables.var"
+    Type="File"
+    LastWriteTime="134015484316575512"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Tester\ANSIC.prg"
+    LogicalPath="Tester"
+    Type="Program"
+    LastWriteTime="134015484317285523" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Tester\Tester.c"
+    LogicalPath="Tester.Tester.c"
+    Type="File"
+    LastWriteTime="134015484317315516"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Tester\Types.typ"
+    LogicalPath="Tester.Types.typ"
+    Type="File"
+    LastWriteTime="134015484317345539"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Tester\Variables.var"
+    LogicalPath="Tester.Variables.var"
+    Type="File"
+    LastWriteTime="134015484317375542"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\HMI_Report\ANSIC.prg"
+    LogicalPath="HMI_Report"
+    Type="Program"
+    LastWriteTime="134015484303447060" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\HMI_Report\HMI_Reports.c"
+    LogicalPath="HMI_Report.HMI_Reports.c"
+    Type="File"
+    LastWriteTime="134015484303487041"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\HMI_Report\Types.typ"
+    LogicalPath="HMI_Report.Types.typ"
+    Type="File"
+    LastWriteTime="134015484303537052"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\HMI_Report\Variables.var"
+    LogicalPath="HMI_Report.Variables.var"
+    Type="File"
+    LastWriteTime="134015484303572314"
+    Private="true" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\HMI_Report\HMI_Reports.h"
+    LogicalPath="HMI_Report.HMI_Reports.h"
+    Type="File"
+    LastWriteTime="134015484303517071"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\ESAB\ANSIC.prg"
+    LogicalPath="ESAB"
+    Type="Program"
+    LastWriteTime="134015484303096956" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\ESAB\ESAB_PS.c"
+    LogicalPath="ESAB.ESAB_PS.c"
+    Type="File"
+    LastWriteTime="134015484303126979"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\Package.pkg"
+    LogicalPath="Lib"
+    Type="Package"
+    LastWriteTime="134015484304084201" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\DataMgrLib.c"
+    LogicalPath="Lib.DataMgrLib.c"
+    Type="File"
+    LastWriteTime="134015484303965441"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\DataMgrLib.h"
+    LogicalPath="Lib.DataMgrLib.h"
+    Type="File"
+    LastWriteTime="134015484304005252"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\statelib.c"
+    LogicalPath="Lib.statelib.c"
+    Type="File"
+    LastWriteTime="134015484304114261"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\statelib.h"
+    LogicalPath="Lib.statelib.h"
+    Type="File"
+    LastWriteTime="134015484304134627"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\WSI_lib.c"
+    LogicalPath="Lib.WSI_lib.c"
+    Type="File"
+    LastWriteTime="134015484304164204"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\WSI_types.h"
+    LogicalPath="Lib.WSI_types.h"
+    Type="File"
+    LastWriteTime="134015484304185883"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\xstring.c"
+    LogicalPath="Lib.xstring.c"
+    Type="File"
+    LastWriteTime="134015484304225454"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\xstring.h"
+    LogicalPath="Lib.xstring.h"
+    Type="File"
+    LastWriteTime="134015484304254990"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\LoggerLib.c"
+    LogicalPath="Lib.LoggerLib.c"
+    Type="File"
+    LastWriteTime="134015484304034743"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\LoggerLib.h"
+    LogicalPath="Lib.LoggerLib.h"
+    Type="File"
+    LastWriteTime="134015484304054767"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\Package.pkg"
+    LogicalPath="Lib.utilityLib"
+    Type="Package"
+    LastWriteTime="134015484305331120" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\bgdebug.h"
+    LogicalPath="Lib.utilityLib.bgdebug.h"
+    Type="File"
+    LastWriteTime="134015484305051121"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\bgringbuffer.c"
+    LogicalPath="Lib.utilityLib.bgringbuffer.c"
+    Type="File"
+    LastWriteTime="134015484305091122"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\bgringbuffer.h"
+    LogicalPath="Lib.utilityLib.bgringbuffer.h"
+    Type="File"
+    LastWriteTime="134015484305111117"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\bgsprintf.c"
+    LogicalPath="Lib.utilityLib.bgsprintf.c"
+    Type="File"
+    LastWriteTime="134015484305151121"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\bgsprintf.h"
+    LogicalPath="Lib.utilityLib.bgsprintf.h"
+    Type="File"
+    LastWriteTime="134015484305181121"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\bgstring.c"
+    LogicalPath="Lib.utilityLib.bgstring.c"
+    Type="File"
+    LastWriteTime="134015484305211120"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\bgstring.h"
+    LogicalPath="Lib.utilityLib.bgstring.h"
+    Type="File"
+    LastWriteTime="134015484305231113"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\libRingBuffer.c"
+    LogicalPath="Lib.utilityLib.libRingBuffer.c"
+    Type="File"
+    LastWriteTime="134015484305251124"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\utilityLib\libRingBuffer.h"
+    LogicalPath="Lib.utilityLib.libRingBuffer.h"
+    Type="File"
+    LastWriteTime="134015484305281127"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\Package.pkg"
+    LogicalPath="Lib.arclink"
+    Type="Package"
+    LastWriteTime="134015484304731125" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\NetworkAttribute.h"
+    LogicalPath="Lib.arclink.NetworkAttribute.h"
+    Type="File"
+    LastWriteTime="134015484304671708"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\WeldController.h"
+    LogicalPath="Lib.arclink.WeldController.h"
+    Type="File"
+    LastWriteTime="134015484304861121"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\NetworkBlocks.h"
+    LogicalPath="Lib.arclink.NetworkBlocks.h"
+    Type="File"
+    LastWriteTime="134015484304701387"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\Handler.h"
+    LogicalPath="Lib.arclink.Handler.h"
+    Type="File"
+    LastWriteTime="134015484304555023"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\ArcLinkObject.h"
+    LogicalPath="Lib.arclink.ArcLinkObject.h"
+    Type="File"
+    LastWriteTime="134015484304424402"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\ArcLinkMap.h"
+    LogicalPath="Lib.arclink.ArcLinkMap.h"
+    Type="File"
+    LastWriteTime="134015484304394251"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\Attribute.h"
+    LogicalPath="Lib.arclink.Attribute.h"
+    Type="File"
+    LastWriteTime="134015484304494841"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\ArcLink.h"
+    LogicalPath="Lib.arclink.ArcLink.h"
+    Type="File"
+    LastWriteTime="134015484304344792"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\MessageBuilder.c"
+    LogicalPath="Lib.arclink.MessageBuilder.c"
+    Type="File"
+    LastWriteTime="134015484304611493"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\ArcLinkMap.c"
+    LogicalPath="Lib.arclink.ArcLinkMap.c"
+    Type="File"
+    LastWriteTime="134015484304374708"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\ArcLink.c"
+    LogicalPath="Lib.arclink.ArcLink.c"
+    Type="File"
+    LastWriteTime="134015484304304733"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\Handler.c"
+    LogicalPath="Lib.arclink.Handler.c"
+    Type="File"
+    LastWriteTime="134015484304524923"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\IncomingHandler.c"
+    LogicalPath="Lib.arclink.IncomingHandler.c"
+    Type="File"
+    LastWriteTime="134015484304582383"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\NetworkActions.h"
+    LogicalPath="Lib.arclink.NetworkActions.h"
+    Type="File"
+    LastWriteTime="134015484304641191"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\WeldController.c"
+    LogicalPath="Lib.arclink.WeldController.c"
+    Type="File"
+    LastWriteTime="134015484304831123"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\ArcLinkUtility.c"
+    LogicalPath="Lib.arclink.ArcLinkUtility.c"
+    Type="File"
+    LastWriteTime="134015484304454954"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\Robot.h"
+    LogicalPath="Lib.arclink.Robot.h"
+    Type="File"
+    LastWriteTime="134015484304791083"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\arclink\Robot.c"
+    LogicalPath="Lib.arclink.Robot.c"
+    Type="File"
+    LastWriteTime="134015484304761131"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\libUDP\Package.pkg"
+    LogicalPath="Lib.libUDP"
+    Type="Package"
+    LastWriteTime="134015484304991120" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\libUDP\libUDP.c"
+    LogicalPath="Lib.libUDP.libUDP.c"
+    Type="File"
+    LastWriteTime="134015484304921131"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Logical\Lib\libUDP\libUDP.h"
+    LogicalPath="Lib.libUDP.libUDP.h"
+    Type="File"
+    LastWriteTime="134015484304961117"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\Config.pkg"
+    LogicalPath="X20CP1685S"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="134015484356987422" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\Hardware.hw"
+    LogicalPath="X20CP1685S.Hardware.hw"
+    Type="File"
+    LastWriteTime="134015485215035988"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\Hardware.hwl"
+    LogicalPath="X20CP1685S.Hardware.hwl"
+    Type="File"
+    LastWriteTime="134015484357047322"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\Cpu.pkg"
+    LogicalPath="X20CP1685S.PLC1"
+    Type="Cpu"
+    LastWriteTime="134049545628173905" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\Cpu.sw"
+    LogicalPath="X20CP1685S.PLC1.Cpu.sw"
+    Type="File"
+    LastWriteTime="134015484357247324"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\Cpu.per"
+    LogicalPath="X20CP1685S.PLC1.Cpu.per"
+    Type="File"
+    LastWriteTime="134015484357197315"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\IoMap.iom"
+    LogicalPath="X20CP1685S.PLC1.IoMap.iom"
+    Type="File"
+    LastWriteTime="134015484357297435"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\PvMap.vvm"
+    LogicalPath="X20CP1685S.PLC1.PvMap.vvm"
+    Type="File"
+    LastWriteTime="134015484357497475"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\Motion\Package.pkg"
+    LogicalPath="X20CP1685S.PLC1.Motion"
+    Type="Package"
+    LastWriteTime="134015484358373313" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\Motion\Acp10cfg.ncc"
+    LogicalPath="X20CP1685S.PLC1.Motion.Acp10cfg.ncc"
+    Type="File"
+    LastWriteTime="134015484357743299"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\Motion\Acp10map.ncm"
+    LogicalPath="X20CP1685S.PLC1.Motion.Acp10map.ncm"
+    Type="File"
+    LastWriteTime="134015484357773360"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\Motion\Acp10sys.br"
+    LogicalPath="X20CP1685S.PLC1.Motion.Acp10sys.br"
+    Type="File"
+    LastWriteTime="134015484358323312"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\PermObj_16.br"
+    LogicalPath="X20CP1685S.PLC1.PermObj_16.br"
+    Type="File"
+    LastWriteTime="134015484357407366"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\PermObj_7.br"
+    LogicalPath="X20CP1685S.PLC1.PermObj_7.br"
+    Type="File"
+    LastWriteTime="134015484357467334"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\PermObj_15.br"
+    LogicalPath="X20CP1685S.PLC1.PermObj_15.br"
+    Type="File"
+    LastWriteTime="134015484357377362"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\PermObj_3.br"
+    LogicalPath="X20CP1685S.PLC1.PermObj_3.br"
+    Type="File"
+    LastWriteTime="134015484357437314"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\LogBook1.br"
+    LogicalPath="X20CP1685S.PLC1.LogBook1.br"
+    Type="File"
+    LastWriteTime="134015484357337354"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\VC\Package.pkg"
+    LogicalPath="X20CP1685S.PLC1.VC"
+    Type="Package"
+    LastWriteTime="134015484370178318" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\VC\PS2-Keyboard.dis"
+    LogicalPath="X20CP1685S.PLC1.VC.PS2-Keyboard.dis"
+    Type="File"
+    LastWriteTime="134015484370207939"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\VC\PS2-Keyboard1.dis"
+    LogicalPath="X20CP1685S.PLC1.VC.PS2-Keyboard1.dis"
+    Type="File"
+    LastWriteTime="134015484370228627"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\VC\PS2-Keyboard2.dis"
+    LogicalPath="X20CP1685S.PLC1.VC.PS2-Keyboard2.dis"
+    Type="File"
+    LastWriteTime="134015484370277767"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\VC\PS2-Keyboard3.dis"
+    LogicalPath="X20CP1685S.PLC1.VC.PS2-Keyboard3.dis"
+    Type="File"
+    LastWriteTime="134015484370308156"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\VC\PS2-Keyboard4.dis"
+    LogicalPath="X20CP1685S.PLC1.VC.PS2-Keyboard4.dis"
+    Type="File"
+    LastWriteTime="134015484370337236"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\VC\PS2-Keyboard5.dis"
+    LogicalPath="X20CP1685S.PLC1.VC.PS2-Keyboard5.dis"
+    Type="File"
+    LastWriteTime="134015484370367995"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\VC\PS2-Keyboard6.dis"
+    LogicalPath="X20CP1685S.PLC1.VC.PS2-Keyboard6.dis"
+    Type="File"
+    LastWriteTime="134015484370417997"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\VC\PS2-Keyboard7.dis"
+    LogicalPath="X20CP1685S.PLC1.VC.PS2-Keyboard7.dis"
+    Type="File"
+    LastWriteTime="134015484370447997"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\SafeLOGIC-1.swt"
+    LogicalPath="X20CP1685S.PLC1.SafeLOGIC-1.swt"
+    Type="File"
+    LastWriteTime="134015484357527542"
+    Private="false" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\DTM\Package.pkg"
+    LogicalPath="X20CP1685S.PLC1.DTM"
+    Type="Package"
+    LastWriteTime="134015484357597548" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\PLC1\ExternalHardware\Package.pkg"
+    LogicalPath="X20CP1685S.PLC1.ExternalHardware"
+    Type="Package"
+    LastWriteTime="134015484357653316" />
+  <Object
+    Path="C:\projects\MIG\MIG_26Sept2025K\MIG1\Physical\X20CP1685S\Hardware.jpg"
+    LogicalPath="X20CP1685S.Hardware.jpg"
+    Type="File"
+    LastWriteTime="134015484357087429"
+    Private="false" />
+</Objects>

@@ -1,0 +1,22 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Master 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=5 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                             TravelSpeed                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    1         
+                                      IN                                     DINT    0 "                                                               2"    1    4    1   10    0    0 e,0,Stop
+
+                            TVL_Last_Pos                                     REAL    0 "                                                      15.3590231"    0    8    1   10    0    0         
+                             TVL_Act_Pos                                     REAL    0 "                                                      15.4984083"    0    8    1   10    0    0         
+                            TVL_Last_Dir                                     DINT    0 "                                                               1"    0    4    1   10    0    0 e,0,Stop
+
+                           FirstWeldBeat                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                 MachCfg                          Mach_Config_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                  Indxon                                     SINT    0 "                                                               1"    1    2    1   10    0    0         
+                               GougingON                                     SINT    0 "                                                               0"    1    2    1   10    0    0         
+                          ProcError_Indx                                     UINT    0 "                                                               1"    0    6    1   10    0    0         
+                           ProcError_vis                                     UINT    0 "                                                               0"    0    6    1   10    0    0         
+                          Robot_Cmd_RUN1                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                 ESAB_PS                                 ESAB_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                     Cmd                             ESAB_CMD_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  WeldON                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                   Param                           ESAB_Param_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Amps                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         

@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/FileUser/FileUser.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun

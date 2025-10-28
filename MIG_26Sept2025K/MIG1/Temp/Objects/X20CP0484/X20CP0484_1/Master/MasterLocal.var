@@ -1,0 +1,27 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_Test_Status : SINT;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"61" #3"13" *)
+	HMI_Graph_Enable : BOOL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"53" #3"32" *)
+	Robot_Cmd_RUN1 : BOOL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"38" #3"31" *)
+	Robot_Cmd_RUN : BOOL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"38" #3"15" *)
+	StandBy_Tmr : TON;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"27" #3"16" *)
+	KK_TVL_Test_Tmr : TON;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"49" #3"16" *)
+	HMI_Travel_Fwd : BOOL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"40" #3"15" *)
+	GetWeldParamSet_Tmr : TON;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"26" #3"16" *)
+	HMI_Graph_Trig : BOOL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"53" #3"15" *)
+	HMI_Travel_Rev : BOOL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"40" #3"32" *)
+	WF_SlowSpeedTime : REAL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"36" #3"14" *)
+	Test_INDX_Step_Cmd : SINT;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"45" #3"13" *)
+	HMI_StndBy_CntDown_vis : UINT;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"31" #3"13" *)
+	HMI_StndBy_CntDown : UDINT;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"30" #3"14" *)
+	HMI_Weld_Stat : REAL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"54" #3"14" *)
+	_MoveEnable : BOOL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"28" #3"15" *)
+	KK_Test_Lincoln : BOOL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"59" #3"15" *)
+	VoltCmd_Scale : AzzScal;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"34" #3"20" *)
+	Virt_Cntrl_Cmd_RUN : BOOL;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"50" #3"15" *)
+	Master_Tmr : TON;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"24" #3"16" *)
+	BurnBack_Tmr : TON;	(* #1"C:/projects/MIG/MIG/Logical/Master/Master.c" #2"25" #3"16" *)
+END_VAR

@@ -1,0 +1,20 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	mb_station : STRING[19];	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"17" #3"19" *)
+	check_status : BOOL;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"23" #3"16" *)
+	register_value : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"19" #3"14" *)
+	register_address : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"18" #3"14" *)
+	mbGetLastException_0 : mbGetLastException;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"31" #3"32" *)
+	coil_values : ARRAY[0..15] OF BOOL;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"26" #3"16" *)
+	mbWriteSingleRegister_0 : mbWriteSingleRegister;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"29" #3"35" *)
+	mbReadCoils_0 : mbReadCoils;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"30" #3"25" *)
+	fub_status : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"20" #3"14" *)
+	HMI_Blink : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"33" #3"13" *)
+	instruction : UDINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"22" #3"15" *)
+	instruction_ready : BOOL;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"27" #3"16" *)
+	coil_address : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"24" #3"14" *)
+	mb_exception : USINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/BR_Modbus/BR_Modbus.c" #2"21" #3"15" *)
+END_VAR

@@ -1,0 +1,14 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=HMI 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=3 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                 permMem                              PermMem_typ    0 "                                                               *"    0   24    1    0    0    1         
+                              Analog_Out                Analog_Out_Mem_typ[0..95]    0 "                                                               *"    1   24   96    0    0    1         
+                          Analog_Out[72]                       Analog_Out_Mem_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                   Value                                     REAL    0 "                                                            90.0"    3    8    1   10    0    0         
+                                  H_Incr                                     REAL    0 "                                                            10.0"    3    8    1   10    0    0         
+                                  L_Incr                                     REAL    0 "                                                             1.0"    3    8    1   10    0    0         
+                          Analog_Out[73]                       Analog_Out_Mem_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                   Value                                     REAL    0 "                                                             4.0"    3    8    1   10    0    0         
+                                  H_Incr                                     REAL    0 "                                                             1.0"    3    8    1   10    0    0         
+                                  L_Incr                                     REAL    0 "                                                             0.1"    3    8    1   10    0    0         
+                                 visPage                                    USINT    0 "                                                               7"    0    5    1   10    0    0         

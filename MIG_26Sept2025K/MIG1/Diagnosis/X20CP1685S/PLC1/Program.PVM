@@ -1,0 +1,9 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   write                                FRM_write    0 "                                                               *"    0   24    1    0    1    1         
+                                  enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               1"    1    7    1   10    0    0         
+                                    open                                FRM_xopen    0 "                                                               *"    0   24    1    0    1    1         
+                                  enable                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  buffer                               STRING[80]    0 "                                                         'TEST '"    0    9   81    1    1    0         

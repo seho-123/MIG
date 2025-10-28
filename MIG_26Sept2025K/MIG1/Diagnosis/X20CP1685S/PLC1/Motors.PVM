@@ -1,0 +1,58 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Motors 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                TVL_Step                                     UINT    0 "                                                              10"    0    6    1   10    1    0         
+                                 Indexer                              Indexer_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                   Speed                                      INT    0 "                                                               0"    1    3    1   10    0    0         
+                                IndexJog                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    1         
+                                      IN                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,Stop
+
+                                 Forward                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Reverse                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Stop                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                            TML_MTR_INST                           TML_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                         TML_MTR_INST[0]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'TVL'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                         TML_MTR_INST[1]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'OSC'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                              17"    2    4    1   10    0    0 e,-4,TML
+
+                         TML_MTR_INST[3]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'AHC'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                         TML_MTR_INST[4]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                            'WF'"    2    9   16    1    0    0         
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               8"    2    4    1   10    0    0 e,-4,TML
+
+                         VectorStateMach               StateVectorProxy_typ[0..4]    0 "                                                               *"    0   24    5    0    0    1         
+                      VectorStateMach[0]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'TVL'"    2    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               5"    2    3    1   10    0    0         
+                                 FbkVect                         STATE_VECTOR_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                    Mode                                      INT    0 "                                                               5"    3    3    1   10    0    0         
+                      VectorStateMach[1]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'OSC'"    2    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                              12"    2    3    1   10    0    0         
+                      VectorStateMach[2]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                          'INDX'"    2    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               5"    2    3    1   10    0    0         
+                      VectorStateMach[3]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'AHC'"    2    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               5"    2    3    1   10    0    0         
+                      VectorStateMach[4]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                            'WF'"    2    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               5"    2    3    1   10    0    0         
+                                 WF_Step                                     UINT    0 "                                                              10"    0    6    1   10    1    0         
+                                AHC_Step                                     UINT    0 "                                                              10"    0    6    1   10    1    0         

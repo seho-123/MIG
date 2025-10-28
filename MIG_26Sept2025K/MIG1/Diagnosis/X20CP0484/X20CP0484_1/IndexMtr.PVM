@@ -1,0 +1,10 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=IndexMtr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                 GlobalPermission_Switch                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                 Indexer                              Indexer_typ    0 "                                                               *"    0   24    1    0    0    1         
+                           Limit_Forward                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                           Limit_Reverse                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Start                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   Speed                                      INT    0 "                                                               0"    1    3    1   10    0    0         
+                                   state                                    USINT    0 "                                                               0"    1    5    1   10    0    0         

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Wel_Mode">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="226868" Value="  5  - Non-synergic GMAW CV"/>
+    <Text ID="226869" Value="  0 - Develop. WF/Volts/Pinch"/>
+    <Text ID="226870" Value="  0 - Develop. WF/Trim/UltimArc"/>
+    <Text ID="380433" Value="164 - Inconel"/>
+    <Text ID="403121" Value="200 - Calibration"/>
+    <Text ID="434719" Value="170 - Synerg. Inconel"/>
+    <Text ID="449283" Value="160 - WSi 70S7 Steel"/>
+    <Text ID="449284" Value="161 - WSI 317L Ni Alloy"/>
+    <Text ID="449285" Value="162 - WSI NSyn Pulse Ni Alloy"/>
+    <Text ID="449286" Value="163 - WSI VC C276 Ni Alloy"/>
+    <Text ID="449287" Value="165 - VC Monel 60 NiCu Alloy"/>
+    <Text ID="449288" Value="166 - VC Alloy 30 Ni Alloy"/>
+    <Text ID="449289" Value="167 - VC 312L Stainless"/>
+    <Text ID="496170" Value="171 - Stainless Steel"/>
+    <Text ID="496171" Value="169 - Carbon Steel"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="226868" Value=""/>
+    <Text ID="226869" Value=""/>
+    <Text ID="226870" Value=""/>
+    <Text ID="380433" Value=""/>
+    <Text ID="403121" Value=""/>
+    <Text ID="434719" Value=""/>
+    <Text ID="449283" Value=""/>
+    <Text ID="449284" Value=""/>
+    <Text ID="449285" Value=""/>
+    <Text ID="449286" Value=""/>
+    <Text ID="449287" Value=""/>
+    <Text ID="449288" Value=""/>
+    <Text ID="449289" Value=""/>
+    <Text ID="496170" Value=""/>
+    <Text ID="496171" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="226868" Value=""/>
+    <Text ID="226869" Value=""/>
+    <Text ID="226870" Value=""/>
+    <Text ID="380433" Value=""/>
+    <Text ID="403121" Value=""/>
+    <Text ID="434719" Value=""/>
+    <Text ID="449283" Value=""/>
+    <Text ID="449284" Value=""/>
+    <Text ID="449285" Value=""/>
+    <Text ID="449286" Value=""/>
+    <Text ID="449287" Value=""/>
+    <Text ID="449288" Value=""/>
+    <Text ID="449289" Value=""/>
+    <Text ID="496170" Value=""/>
+    <Text ID="496171" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="226868" Value=""/>
+    <Text ID="226869" Value=""/>
+    <Text ID="226870" Value=""/>
+    <Text ID="380433" Value=""/>
+    <Text ID="403121" Value=""/>
+    <Text ID="434719" Value=""/>
+    <Text ID="449283" Value=""/>
+    <Text ID="449284" Value=""/>
+    <Text ID="449285" Value=""/>
+    <Text ID="449286" Value=""/>
+    <Text ID="449287" Value=""/>
+    <Text ID="449288" Value=""/>
+    <Text ID="449289" Value=""/>
+    <Text ID="496170" Value=""/>
+    <Text ID="496171" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="226868" Value=""/>
+    <Text ID="226869" Value=""/>
+    <Text ID="226870" Value=""/>
+    <Text ID="380433" Value=""/>
+    <Text ID="403121" Value=""/>
+    <Text ID="434719" Value=""/>
+    <Text ID="449283" Value=""/>
+    <Text ID="449284" Value=""/>
+    <Text ID="449285" Value=""/>
+    <Text ID="449286" Value=""/>
+    <Text ID="449287" Value=""/>
+    <Text ID="449288" Value=""/>
+    <Text ID="449289" Value=""/>
+    <Text ID="496170" Value=""/>
+    <Text ID="496171" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-BR">
+    <Text ID="226868" Value=""/>
+    <Text ID="226869" Value=""/>
+    <Text ID="226870" Value=""/>
+    <Text ID="380433" Value=""/>
+    <Text ID="403121" Value=""/>
+    <Text ID="434719" Value=""/>
+    <Text ID="449283" Value=""/>
+    <Text ID="449284" Value=""/>
+    <Text ID="449285" Value=""/>
+    <Text ID="449286" Value=""/>
+    <Text ID="449287" Value=""/>
+    <Text ID="449288" Value=""/>
+    <Text ID="449289" Value=""/>
+    <Text ID="496170" Value=""/>
+    <Text ID="496171" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="226868" Value=""/>
+    <Text ID="226869" Value=""/>
+    <Text ID="226870" Value=""/>
+    <Text ID="380433" Value=""/>
+    <Text ID="403121" Value=""/>
+    <Text ID="434719" Value=""/>
+    <Text ID="449283" Value=""/>
+    <Text ID="449284" Value=""/>
+    <Text ID="449285" Value=""/>
+    <Text ID="449286" Value=""/>
+    <Text ID="449287" Value=""/>
+    <Text ID="449288" Value=""/>
+    <Text ID="449289" Value=""/>
+    <Text ID="496170" Value=""/>
+    <Text ID="496171" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv">
+    <Text ID="226868" Value=""/>
+    <Text ID="226869" Value=""/>
+    <Text ID="226870" Value=""/>
+    <Text ID="380433" Value=""/>
+    <Text ID="403121" Value=""/>
+    <Text ID="434719" Value=""/>
+    <Text ID="449283" Value=""/>
+    <Text ID="449284" Value=""/>
+    <Text ID="449285" Value=""/>
+    <Text ID="449286" Value=""/>
+    <Text ID="449287" Value=""/>
+    <Text ID="449288" Value=""/>
+    <Text ID="449289" Value=""/>
+    <Text ID="496170" Value=""/>
+    <Text ID="496171" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="226868" Value="5"/>
+    <Index ID="226869" Value="21"/>
+    <Index ID="226870" Value="22"/>
+    <Index ID="380433" Value="164"/>
+    <Index ID="403121" Value="200"/>
+    <Index ID="434719" Value="170"/>
+    <Index ID="449283" Value="160"/>
+    <Index ID="449284" Value="161"/>
+    <Index ID="449285" Value="162"/>
+    <Index ID="449286" Value="163"/>
+    <Index ID="449287" Value="165"/>
+    <Index ID="449288" Value="166"/>
+    <Index ID="449289" Value="167"/>
+    <Index ID="496170" Value="171"/>
+    <Index ID="496171" Value="169"/>
+  </IndexMap>
+</TextGroup>

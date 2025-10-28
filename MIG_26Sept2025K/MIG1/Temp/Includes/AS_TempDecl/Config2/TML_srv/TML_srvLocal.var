@@ -1,0 +1,24 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_BypassHeartBeat : BOOL;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"171" #3"15" *)
+	KK_Disable_All_TML : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"174" #3"13" *)
+	KK_Enable_All_TML : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"174" #3"35" *)
+	Ret : DINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"151" #3"13" *)
+	HeartBeatTrig_Level : REAL;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"149" #3"14" *)
+	Kick_Repeats : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"158" #3"13" *)
+	MSG_Thread : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"167" #3"26" *)
+	KK_TML_Error_TimeStamp : TIME;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"169" #3"13" *)
+	Max_TML_Process : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"162" #3"13" *)
+	OneDrivePerTime : SINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"153" #3"14" *)
+	Value : DINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"150" #3"13" *)
+	KK_STOP_TML_Server : BOOL;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"173" #3"15" *)
+	TML_Thread : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"167" #3"13" *)
+	memPointer : UDINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"152" #3"24" *)
+	KK_TestSend : UINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"176" #3"13" *)
+	KK_StopProgram : BOOL;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"177" #3"15" *)
+	SlipFactor : ARRAY[0..15] OF REAL;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"157" #3"14" *)
+	pointer : UDINT;	(* #1"C:/projects/RemWeld/RemWeld/Logical/TML_srv/TML_srv.c" #2"152" #3"14" *)
+END_VAR

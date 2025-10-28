@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="AHC_Type">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="156684" Value="Legacy"/>
+    <Text ID="156685" Value="PID Wind."/>
+    <Text ID="156686" Value="PID PLC"/>
+    <Text ID="156687" Value="PID TML"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="156684" Value=""/>
+    <Text ID="156685" Value=""/>
+    <Text ID="156686" Value=""/>
+    <Text ID="156687" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="156684" Value=""/>
+    <Text ID="156685" Value=""/>
+    <Text ID="156686" Value=""/>
+    <Text ID="156687" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="156684" Value=""/>
+    <Text ID="156685" Value=""/>
+    <Text ID="156686" Value=""/>
+    <Text ID="156687" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="156684" Value=""/>
+    <Text ID="156685" Value=""/>
+    <Text ID="156686" Value=""/>
+    <Text ID="156687" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-BR">
+    <Text ID="156684" Value=""/>
+    <Text ID="156685" Value=""/>
+    <Text ID="156686" Value=""/>
+    <Text ID="156687" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="156684" Value=""/>
+    <Text ID="156685" Value=""/>
+    <Text ID="156686" Value=""/>
+    <Text ID="156687" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv">
+    <Text ID="156684" Value=""/>
+    <Text ID="156685" Value=""/>
+    <Text ID="156686" Value=""/>
+    <Text ID="156687" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="156684" Value="0"/>
+    <Index ID="156685" Value="1"/>
+    <Index ID="156686" Value="2"/>
+    <Index ID="156687" Value="3"/>
+  </IndexMap>
+</TextGroup>

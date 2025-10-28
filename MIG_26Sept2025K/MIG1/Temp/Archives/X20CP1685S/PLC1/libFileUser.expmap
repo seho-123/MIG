@@ -1,0 +1,8 @@
+{
+  global:
+    FU_init;
+    FU_serv;
+    FU_setBufPointer;
+  local:
+    *;
+ };

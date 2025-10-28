@@ -1,0 +1,32 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=TML_Cfg 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=329 Scope=60 Force=60 Index=19 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                ErrorMgr                            ERROR_Mgr_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                   Error                                     SINT    0 "                                                               1"    1    2    1   10    0    0         
+                            ErrorMgr_Txt                         STRING[63][0..4]    0 "                                                               *"    0    9   64    0    0    1         
+                         ErrorMgr_Txt[0]                               STRING[63]    0 "                                                           ': 0'"    1    9   64    1    0    0         
+                         ErrorMgr_Txt[1]                               STRING[63]    0 "                               'Drive: TVL: Under-Voltage Error'"    1    9   64    1    0    0         
+                         ErrorMgr_Txt[2]                               STRING[63]    0 "                                              ' -------------- '"    1    9   64    1    0    0         
+                         ErrorMgr_Txt[3]                               STRING[63]    0 "                                              ' -------------- '"    1    9   64    1    0    0         
+                         ErrorMgr_Txt[4]                               STRING[63]    0 "                                              ' -------------- '"    1    9   64    1    0    0         
+                                  LogMgr                               LOGMGR_obj    0 "                                                               *"    0   24    1    0    0    1         
+                                 LogView                        STRING[96][0..19]    0 "                                                               *"    1    9   97    0    0    1         
+                              LogView[1]                               STRING[96]    0 "                                                              ''"    2    9   97    1    0    0         
+                             LogView[13]                               STRING[96]    0 "                            '08:35:54-367 >Path 20 Done: 332.40'"    2    9   97    1    0    0         
+                             LogView[14]                               STRING[96]    0 "                              '08:35:54-273 >P:TVL Stop: 331.84'"    2    9   97    1    0    0         
+                             LogView[15]                               STRING[96]    0 "                             '08:34:54-446 >P: Wire Start: 0.90'"    2    9   97    1    0    0         
+                             LogView[16]                               STRING[96]    0 "                              '08:34:53-344 >P: AMP Start: 0.90'"    2    9   97    1    0    0         
+                             LogView[17]                               STRING[96]    0 "                                 '08:34:51-340 >ARC established'"    2    9   97    1    0    0         
+                             LogView[18]                               STRING[96]    0 "                              '08:34:51-340 >M:TVL0 Start: 0.90'"    2    9   97    1    0    0         
+                             LogView[19]                               STRING[96]    0 "                                       '08:34:45-400 >ARC start'"    2    9   97    1    0    0         
+                                     Cmd                            LOGMGRCMD_obj    0 "                                                               *"    1   24    1    0    0    1         
+                                scrollBy                                     UINT    0 "                                                               1"    2    6    1   10    0    0         
+                                ScrollUp                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                               ScrollDwn                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                LastLogs                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                EnterLog                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                 Refresh                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                            PauseRefresh                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                PauseLog                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                      PauseRefreshNewLog                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                            EraseAllLogs                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         

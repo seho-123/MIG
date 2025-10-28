@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.5.2.102"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="ESAB"
+      Disable="false"
+      Source="ESAB"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\ESAB\ESABLocal.var" />
+    </Task>
+    <Task
+      Name="LincolnPS"
+      Disable="false"
+      Source="LincolnPS"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\LincolnPS\LincolnPSLocal.var" />
+    </Task>
+    <Task
+      Name="UDP_Client"
+      Disable="false"
+      Source="UDP_Client"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\UDP_Client\UDP_ClientLocal.var" />
+    </Task>
+    <Task
+      Name="TML_srv"
+      Disable="false"
+      Source="TML_srv"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\TML_srv\TML_srvLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="MainProc"
+      Disable="false"
+      Source="MainProc"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Logical\MainProc\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG\Logical\MainProc\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\MainProc\MainProcLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="Master"
+      Disable="false"
+      Source="Master"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\Master\MasterLocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="HMI"
+      Disable="false"
+      Source="HMI"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\HMI\HMILocal.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8">
+    <Task
+      Name="Program"
+      Disable="true"
+      Source="Program"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Logical\Program\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG\Logical\Program\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\Program\ProgramLocal.var" />
+    </Task>
+    <Task
+      Name="UDP"
+      Disable="true"
+      Source="UDP"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Logical\UDP\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG\Logical\UDP\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\UDP\UDPLocal.var" />
+    </Task>
+    <Task
+      Name="TcpCam"
+      Disable="true"
+      Source="TcpCam"
+      Language="ANSIC">
+      <File
+        Path="C:\projects\MIG\MIG\Logical\TcpCam\Types.typ" />
+      <File
+        Path="C:\projects\MIG\MIG\Logical\TcpCam\Variables.var" />
+      <File
+        Path="C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1\TcpCam\TcpCamLocal.var" />
+    </Task>
+  </TaskClass>
+</ConfigInfo>

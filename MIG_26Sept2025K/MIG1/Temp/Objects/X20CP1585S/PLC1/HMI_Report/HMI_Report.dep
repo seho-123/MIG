@@ -1,0 +1,16 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIOTime/AsIOTime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/HMI_Report/HMI_Reports.c
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.var
+$(AS_PROJECT_PATH)/Logical/HMI_Report/HMI_Reports.h
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/FileIO/FileIO.var
+$(AS_PROJECT_PATH)/Physical/X20CP1585S/PLC1/Cpu.per
+$(AS_PROJECT_PATH)/Logical/LocalJog/../GlobalDecl.h
+$(AS_PROJECT_PATH)/Logical/UDP_Client/../GlobalDef.h
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.typ

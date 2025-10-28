@@ -1,0 +1,25 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	KK_BypassHeartBeat : BOOL;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"177" #3"15" *)
+	KK_Disable_All_TML : UINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"180" #3"13" *)
+	KK_Enable_All_TML : UINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"180" #3"35" *)
+	Ret : DINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"158" #3"13" *)
+	HeartBeatTrig_Level : REAL;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"156" #3"14" *)
+	Kick_Repeats : UINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"165" #3"13" *)
+	MSG_Thread : UINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"173" #3"26" *)
+	KK_TML_Error_TimeStamp : TIME;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"175" #3"13" *)
+	Max_TML_Process : UINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"168" #3"13" *)
+	OneDrivePerTime : SINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"160" #3"14" *)
+	Value : DINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"157" #3"13" *)
+	KK_STOP_TML_Server : BOOL;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"179" #3"15" *)
+	TML_Thread : UINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"173" #3"13" *)
+	memPointer : UDINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"159" #3"24" *)
+	KK_TestSend : UINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"182" #3"13" *)
+	KK_StopProgram : BOOL;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"183" #3"15" *)
+	KK_TX_RX_Dif : USINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"201" #3"14" *)
+	SlipFactor : ARRAY[0..15] OF REAL;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"164" #3"14" *)
+	pointer : UDINT;	(* #1"C:/projects/MIG/MIG_05Sept2025K_report/Logical/TML_srv/TML_srv.c" #2"159" #3"14" *)
+END_VAR

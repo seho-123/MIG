@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<Library Version="1.54.0" SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>XMLp_Lib.fun</File>
+    <File>XMLp_Lib.typ</File>
+    <File>XMLp_Lib.var</File>
+    <File>xml_def.h</File>
+    <File>xml_lib.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="SYS_LIB" Target="SG4" FromVersion="0.00.0" />
+    <Dependency ObjectName="AsString" Target="SG4" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

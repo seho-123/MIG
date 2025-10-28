@@ -1,0 +1,11 @@
+VAR
+	send : UdpSend;
+	close : UdpClose;
+	open : UdpOpen;
+	pelcoMsg : ARRAY[0..6] OF USINT;
+	pelcoSrvIP : STRING[20] := '10.0.1.1';
+	pelcoSrvTimeout : TIME;
+	pelcoSrvPort : UINT := 9999;
+	pelcoMsgSend : BOOL;
+	pelcoSrvTimer : TON;
+END_VAR

@@ -1,0 +1,23 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Master 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=249 Type=139 Scope=103 Force=60 Index=8 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   ESTOP                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                    ErrorFromMaster_flag                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                  ArcLink_Gas_Valve_step                                     SINT    0 "                                                               3"    0    2    1   10    1    0         
+                          Gas_Arclink_ON                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                     Seq                                 Sequence    0 "                                                               *"    0   24    1    0    0    1         
+                                   State                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                             TravelSpeed                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    1         
+                                      IN                                     DINT    0 "                                                               2"    1    4    1   10    0    0 e,0,Stop
+
+                            TVL_Last_Dir                                     DINT    0 "                                                               1"    0    4    1   10    0    0 e,0,Stop
+
+                                 MachCfg                          Mach_Config_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                    Weld                                     SINT    0 "                                                               1"    1    2    1   10    0    0         
+                                 ArcLink                             Arc_Link_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                   robot                                Robot_typ    0 "                                                               *"    1   24    1    0    0    1         
+                               miscSetup                  Arc_Link_Misc_Setup_typ    0 "                                                               *"    2   24    1    0    0    1         
+                              CoolerAddr                                    USINT    0 "                                                               0"    3    5    1   10    0    0         
+                              GasSolAddr                                    USINT    0 "                                                               5"    3    5    1   10    0    0         
+                                   Intrf                          Robot_Intrf_typ    0 "                                                               *"    2   24    1    0    0    1         
+                                    xCMD                                     UINT    0 "                                                               0"    3    6    1   10    0    0         

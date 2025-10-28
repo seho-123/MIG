@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Calibration_Indx">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="3"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="164198" Value="TVL Speed"/>
+    <Text ID="164199" Value="WF Speed"/>
+    <Text ID="164200" Value="AMP Fbk."/>
+    <Text ID="164201" Value="INDX Dist."/>
+    <Text ID="164202" Value="OSC Dist."/>
+    <Text ID="164203" Value="Arc Volts"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="164198" Value=""/>
+    <Text ID="164199" Value=""/>
+    <Text ID="164200" Value=""/>
+    <Text ID="164201" Value=""/>
+    <Text ID="164202" Value=""/>
+    <Text ID="164203" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="164198" Value=""/>
+    <Text ID="164199" Value=""/>
+    <Text ID="164200" Value=""/>
+    <Text ID="164201" Value=""/>
+    <Text ID="164202" Value=""/>
+    <Text ID="164203" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="164198" Value=""/>
+    <Text ID="164199" Value=""/>
+    <Text ID="164200" Value=""/>
+    <Text ID="164201" Value=""/>
+    <Text ID="164202" Value=""/>
+    <Text ID="164203" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="164198" Value=""/>
+    <Text ID="164199" Value=""/>
+    <Text ID="164200" Value=""/>
+    <Text ID="164201" Value=""/>
+    <Text ID="164202" Value=""/>
+    <Text ID="164203" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-BR">
+    <Text ID="164198" Value=""/>
+    <Text ID="164199" Value=""/>
+    <Text ID="164200" Value=""/>
+    <Text ID="164201" Value=""/>
+    <Text ID="164202" Value=""/>
+    <Text ID="164203" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="164198" Value=""/>
+    <Text ID="164199" Value=""/>
+    <Text ID="164200" Value=""/>
+    <Text ID="164201" Value=""/>
+    <Text ID="164202" Value=""/>
+    <Text ID="164203" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv">
+    <Text ID="164198" Value=""/>
+    <Text ID="164199" Value=""/>
+    <Text ID="164200" Value=""/>
+    <Text ID="164201" Value=""/>
+    <Text ID="164202" Value=""/>
+    <Text ID="164203" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="164198" Value="2"/>
+    <Index ID="164199" Value="0"/>
+    <Index ID="164200" Value="1"/>
+    <Index ID="164201" Value="5"/>
+    <Index ID="164202" Value="4"/>
+    <Index ID="164203" Value="3"/>
+  </IndexMap>
+</TextGroup>

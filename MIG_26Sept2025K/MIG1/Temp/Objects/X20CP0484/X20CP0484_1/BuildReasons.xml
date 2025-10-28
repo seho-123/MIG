@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp0484\x20cp0484_1\visu\visu.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp0484\x20cp0484_1\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\x20cp0484\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp0484\x20cp0484_1\sysconf.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\x20cp0484\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp0484\x20cp0484_1\visu.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp0484\x20cp0484_1\asfw.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\x20cp0484\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp0484\x20cp0484_1\ashwd.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\x20cp0484\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp0484\x20cp0484_1\arconfig.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\x20cp0484\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp0484\x20cp0484_1\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\x20cp0484\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\x20cp0484\x20cp0484_1\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp0484\x20cp0484_1\visu.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

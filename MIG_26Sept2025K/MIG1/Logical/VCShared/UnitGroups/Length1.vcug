@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Length1">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[Meter]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[PLCUnit]"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65535"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en">
+      <Text ID="510912" Value="millimeter"/>
+      <Text ID="510913" Value="mm"/>
+      <Text ID="510914" Value="centimeter"/>
+      <Text ID="510915" Value="cm"/>
+      <Text ID="510916" Value="meter"/>
+      <Text ID="510917" Value="m"/>
+      <Text ID="510918" Value="inch"/>
+      <Text ID="510919" Value="in"/>
+      <Text ID="510920" Value=""/>
+      <Text ID="510921" Value=""/>
+      <Text ID="510922" Value="feet"/>
+      <Text ID="510923" Value="ft"/>
+      <Text ID="510924" Value="meter"/>
+      <Text ID="510925" Value="micrometer"/>
+      <Text ID="510926" Value="µm"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="510912" Value="Millimeter"/>
+      <Text ID="510913" Value="mm"/>
+      <Text ID="510914" Value="Zentimeter"/>
+      <Text ID="510915" Value="cm"/>
+      <Text ID="510916" Value="Meter"/>
+      <Text ID="510917" Value="m"/>
+      <Text ID="510918" Value="Zoll"/>
+      <Text ID="510919" Value="inch"/>
+      <Text ID="510920" Value=""/>
+      <Text ID="510921" Value=""/>
+      <Text ID="510922" Value="Fuss"/>
+      <Text ID="510923" Value="ft"/>
+      <Text ID="510924" Value="Meter"/>
+      <Text ID="510925" Value="Mikrometer"/>
+      <Text ID="510926" Value="µm"/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="510912" Value=""/>
+      <Text ID="510913" Value=""/>
+      <Text ID="510914" Value=""/>
+      <Text ID="510915" Value=""/>
+      <Text ID="510916" Value=""/>
+      <Text ID="510917" Value=""/>
+      <Text ID="510918" Value=""/>
+      <Text ID="510919" Value=""/>
+      <Text ID="510920" Value=""/>
+      <Text ID="510921" Value=""/>
+      <Text ID="510922" Value=""/>
+      <Text ID="510923" Value=""/>
+      <Text ID="510924" Value=""/>
+      <Text ID="510925" Value=""/>
+      <Text ID="510926" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="510912" Value=""/>
+      <Text ID="510913" Value=""/>
+      <Text ID="510914" Value=""/>
+      <Text ID="510915" Value=""/>
+      <Text ID="510916" Value=""/>
+      <Text ID="510917" Value=""/>
+      <Text ID="510918" Value=""/>
+      <Text ID="510919" Value=""/>
+      <Text ID="510920" Value=""/>
+      <Text ID="510921" Value=""/>
+      <Text ID="510922" Value=""/>
+      <Text ID="510923" Value=""/>
+      <Text ID="510924" Value=""/>
+      <Text ID="510925" Value=""/>
+      <Text ID="510926" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="510912" Value=""/>
+      <Text ID="510913" Value=""/>
+      <Text ID="510914" Value=""/>
+      <Text ID="510915" Value=""/>
+      <Text ID="510916" Value=""/>
+      <Text ID="510917" Value=""/>
+      <Text ID="510918" Value=""/>
+      <Text ID="510919" Value=""/>
+      <Text ID="510920" Value=""/>
+      <Text ID="510921" Value=""/>
+      <Text ID="510922" Value=""/>
+      <Text ID="510923" Value=""/>
+      <Text ID="510924" Value=""/>
+      <Text ID="510925" Value=""/>
+      <Text ID="510926" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-BR">
+      <Text ID="510912" Value=""/>
+      <Text ID="510913" Value=""/>
+      <Text ID="510914" Value=""/>
+      <Text ID="510915" Value=""/>
+      <Text ID="510916" Value=""/>
+      <Text ID="510917" Value=""/>
+      <Text ID="510918" Value=""/>
+      <Text ID="510919" Value=""/>
+      <Text ID="510920" Value=""/>
+      <Text ID="510921" Value=""/>
+      <Text ID="510922" Value=""/>
+      <Text ID="510923" Value=""/>
+      <Text ID="510924" Value=""/>
+      <Text ID="510925" Value=""/>
+      <Text ID="510926" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt">
+      <Text ID="510912" Value=""/>
+      <Text ID="510913" Value=""/>
+      <Text ID="510914" Value=""/>
+      <Text ID="510915" Value=""/>
+      <Text ID="510916" Value=""/>
+      <Text ID="510917" Value=""/>
+      <Text ID="510918" Value=""/>
+      <Text ID="510919" Value=""/>
+      <Text ID="510920" Value=""/>
+      <Text ID="510921" Value=""/>
+      <Text ID="510922" Value=""/>
+      <Text ID="510923" Value=""/>
+      <Text ID="510924" Value=""/>
+      <Text ID="510925" Value=""/>
+      <Text ID="510926" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv">
+      <Text ID="510912" Value=""/>
+      <Text ID="510913" Value=""/>
+      <Text ID="510914" Value=""/>
+      <Text ID="510915" Value=""/>
+      <Text ID="510916" Value=""/>
+      <Text ID="510917" Value=""/>
+      <Text ID="510918" Value=""/>
+      <Text ID="510919" Value=""/>
+      <Text ID="510920" Value=""/>
+      <Text ID="510921" Value=""/>
+      <Text ID="510922" Value=""/>
+      <Text ID="510923" Value=""/>
+      <Text ID="510924" Value=""/>
+      <Text ID="510925" Value=""/>
+      <Text ID="510926" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="510912" Value="1"/>
+      <Index ID="510913" Value="2"/>
+      <Index ID="510914" Value="3"/>
+      <Index ID="510915" Value="4"/>
+      <Index ID="510916" Value="5"/>
+      <Index ID="510917" Value="6"/>
+      <Index ID="510918" Value="9"/>
+      <Index ID="510919" Value="10"/>
+      <Index ID="510920" Value="13"/>
+      <Index ID="510921" Value="14"/>
+      <Index ID="510922" Value="15"/>
+      <Index ID="510923" Value="16"/>
+      <Index ID="510924" Value="0"/>
+      <Index ID="510925" Value="7"/>
+      <Index ID="510926" Value="8"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000602" Name="Millimeter">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="1"/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="Centimeter">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="0.01"/>
+      <Property Name="Index" Value="3"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="Meter">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="0.001"/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="Inch">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="0.03936997"/>
+      <Property Name="Index" Value="4"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="10"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="9"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="PLCUnit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="1"/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="14"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="13"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="Feet">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="0.00328083"/>
+      <Property Name="Index" Value="5"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="16"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="15"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="4"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

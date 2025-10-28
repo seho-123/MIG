@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXTGRP_YES_NO">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="16"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="355114" Value="NO"/>
+    <Text ID="355115" Value="YES"/>
+    <Text ID="355116" Value="OK"/>
+    <Text ID="355117" Value="Cancel"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="355114" Value=""/>
+    <Text ID="355115" Value=""/>
+    <Text ID="355116" Value=""/>
+    <Text ID="355117" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="355114" Value=""/>
+    <Text ID="355115" Value=""/>
+    <Text ID="355116" Value=""/>
+    <Text ID="355117" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="355114" Value=""/>
+    <Text ID="355115" Value=""/>
+    <Text ID="355116" Value=""/>
+    <Text ID="355117" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="355114" Value=""/>
+    <Text ID="355115" Value=""/>
+    <Text ID="355116" Value=""/>
+    <Text ID="355117" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-BR">
+    <Text ID="355114" Value=""/>
+    <Text ID="355115" Value=""/>
+    <Text ID="355116" Value=""/>
+    <Text ID="355117" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="355114" Value=""/>
+    <Text ID="355115" Value=""/>
+    <Text ID="355116" Value=""/>
+    <Text ID="355117" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv">
+    <Text ID="355114" Value=""/>
+    <Text ID="355115" Value=""/>
+    <Text ID="355116" Value=""/>
+    <Text ID="355117" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="355114" Value="0"/>
+    <Index ID="355115" Value="1"/>
+    <Index ID="355116" Value="2"/>
+    <Index ID="355117" Value="3"/>
+  </IndexMap>
+</TextGroup>

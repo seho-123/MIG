@@ -1,0 +1,8 @@
+$(AS_CPU_PATH)/fileuser/fu_setmem.c.o:
+$(AS_PROJECT_PATH)/logical/libraries/fileuser/fu_setmem.c
+$(AS_GNU_INST_PATH)/arm-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/arm-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/includes/fileuser.h
+$(AS_TEMP_PATH)/includes/sys_lib.h
+$(AS_TEMP_PATH)/includes/runtime.h
+$(AS_TEMP_PATH)/includes/fileio.h

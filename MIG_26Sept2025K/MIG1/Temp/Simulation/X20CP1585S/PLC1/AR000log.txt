@@ -1,0 +1,19 @@
+
+
+Thu Aug 14 17:17:47 2025
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Thu Aug 14 17:17:47 2025
+COMMAND_COLDSTART
+InstanceName : 01dc0d60e2481ab0
+
+WorkingPath :
+C:\projects\AZZ\MIG\MIG\Temp\Simulation\X20CP1585S\PLC1\
+
+
+
+Thu Aug 14 17:17:47 2025
+COMMAND_COLDSTART

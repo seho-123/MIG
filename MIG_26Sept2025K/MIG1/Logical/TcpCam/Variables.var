@@ -1,0 +1,12 @@
+VAR
+	close : ARRAY[0..1] OF TcpClose;
+	open : ARRAY[0..1] OF TcpOpen;
+	message : STRING[40];
+	response : ARRAY[0..39] OF USINT;
+	client : ARRAY[0..1] OF TcpClient;
+	connect : ARRAY[0..1] OF BOOL;
+	receive : ARRAY[0..1] OF TcpRecv;
+	send : ARRAY[0..1] OF TcpSend;
+	cameraIP : ARRAY[0..1] OF STRING[20];
+	cameraSend : ARRAY[0..1] OF BOOL;
+END_VAR

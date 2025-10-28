@@ -1,0 +1,32 @@
+(********************************************************************
+ * COPYRIGHT -- wsi
+ ********************************************************************
+ * File: IoMap.iom
+ * Author: wsi
+ * Created: May 14, 2013
+ ********************************************************************
+ * IO mapping file
+ ********************************************************************)
+VAR_CONFIG
+	::Main_IO.Inp[0] AT %IX."X20DI6373e".DigitalInput01;
+	::Main_IO.Inp[1] AT %IX."X20DI6373e".DigitalInput02;
+	::Main_IO.Inp[2] AT %IX."X20DI6373e".DigitalInput03;
+	::Main_IO.Inp[3] AT %IX."X20DI6373e".DigitalInput04;
+	::Main_IO.Inp[4] AT %IX."X20DI6373e".DigitalInput05;
+	::Main_IO.Inp[5] AT %IX."X20DI6373e".DigitalInput06;
+	::Main_IO.Inp[6] AT %IX."X20DI6373f".DigitalInput01;
+	::Main_IO.Inp[7] AT %IX."X20DI6373f".DigitalInput02;
+	::Main_IO.Inp[8] AT %IX."X20DI6373f".DigitalInput03;
+	::Main_IO.Inp[9] AT %IX."X20DI6373f".DigitalInput04;
+	::Main_IO.Inp[10] AT %IX."X20DI6373f".DigitalInput05;
+	::Main_IO.Inp[11] AT %IX."X20DI6373f".DigitalInput06;
+	::Main_IO.Out[0] AT %QX."X20DO4529f".DigitalOutput01;
+	::Main_IO.Out[1] AT %QX."X20DO4529f".DigitalOutput02;
+	::Main_IO.Out[2] AT %QX."X20DO4529f".DigitalOutput03;
+	::Main_IO.Out[3] AT %QX."X20DO4529f".DigitalOutput04;
+	::Main_IO.Out[4] AT %QX."X20DO4529g".DigitalOutput01;
+	::Main_IO.Out[5] AT %QX."X20DO4529g".DigitalOutput02;
+	::Main_IO.Out[6] AT %QX."X20DO4529g".DigitalOutput03;
+	::Main_IO.Out[7] AT %QX."X20DO4529g".DigitalOutput04;
+	::VoltCmd_Out AT %QW."X20AO4622".AnalogOutput02;
+END_VAR

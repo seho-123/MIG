@@ -1,0 +1,98 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=MainProc 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=52 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                AHC_Mode                                    USINT    0 "                                                               3"    0    5    1   10    0    0         
+                                TVL_Step                                     UINT    0 "                                                             220"    0    6    1   10    0    0         
+                         SequenceRun_Out                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                     TVL_Calibr_Distance                                     REAL    0 "                                                           100.0"    0    8    1   10    0    0         
+                        TVL_Calibr_Speed                                     REAL    0 "                                                             0.0"    0    8    1   10    0    0         
+                                 Indexer                              Indexer_typ    0 "                                                               *"    0   24    1    0    0    0         
+                              ManualStep                                     SINT    0 "                                                               0"    1    2    1   10    0    0         
+                                IndexJog                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    0         
+                                      IN                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,Stop
+
+                             TravelSpeed                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    0         
+                                      IN                                     DINT    0 "                                                               1"    1    4    1   10    0    0 e,0,Stop
+
+                               TravelJog                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    0         
+                                      IN                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,Stop
+
+                                CurCalib                             CurCalib_typ    0 "                                                               *"    0   24    1    0    0    0         
+                                  Points                    Calib_Param_typ[0..7]    0 "                                                               *"    1   24    8    0    0    0         
+                               Points[0]                          Calib_Param_typ    0 "                                                               *"    2   24    1    0    0    0         
+                                     val                               REAL[0..7]    0 "                                                               *"    3    8    8    0    0    0         
+                                  val[0]                                     REAL    0 "                                                             1.0"    4    8    1   10    0    0         
+                                  val[1]                                     REAL    0 "                                                             1.0"    4    8    1   10    0    0         
+                                  val[2]                                     REAL    0 "                                                          1000.0"    4    8    1   10    0    0         
+                                  val[3]                                     REAL    0 "                                                          1000.0"    4    8    1   10    0    0         
+                                  val[4]                                     REAL    0 "                                                             1.0"    4    8    1   10    0    0         
+                                  val[5]                                     REAL    0 "                                                             2.0"    4    8    1   10    0    0         
+                                  val[6]                                     REAL    0 "                                                            10.0"    4    8    1   10    0    0         
+                                  val[7]                                     REAL    0 "                                                            10.0"    4    8    1   10    0    0         
+                               Points[1]                          Calib_Param_typ    0 "                                                               *"    2   24    1    0    0    0         
+                                     val                               REAL[0..7]    0 "                                                               *"    3    8    8    0    0    0         
+                                  val[0]                                     REAL    0 "                                                             1.0"    4    8    1   10    0    0         
+                                  val[1]                                     REAL    0 "                                                             1.0"    4    8    1   10    0    0         
+                                  val[2]                                     REAL    0 "                                                          1000.0"    4    8    1   10    0    0         
+                                  val[3]                                     REAL    0 "                                                          1000.0"    4    8    1   10    0    0         
+                                 permMem                              PermMem_typ    0 "                                                               *"    0   24    1    0    0    0         
+                              Analog_Out                Analog_Out_Mem_typ[0..63]    0 "                                                               *"    1   24   64    0    0    0         
+                           Analog_Out[0]                       Analog_Out_Mem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                                   Value                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           Analog_Out[2]                       Analog_Out_Mem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                                   Value                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                          Analog_Out[50]                       Analog_Out_Mem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                                   Value                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                          Analog_Out[52]                       Analog_Out_Mem_typ    0 "                                                               *"    2   24    1    0    0    0         
+                                   Value                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             OLD_MTR_POS                              DINT[0..15]    0 "                                                               *"    0    4   16    0    0    1         
+                          OLD_MTR_POS[0]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                            TML_MTR_INST                           TML_typ[0..15]    0 "                                                               *"    0   24   16    0    0    1         
+                         TML_MTR_INST[0]                                  TML_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  Status                                     DINT    0 "                                                              17"    2    4    1   10    0    0 e,-4,TML
+
+                                    xCMD                                    USINT    0 "                                                               0"    2    5    1   10    0    0         
+                         VectorStateMach               StateVectorProxy_typ[0..4]    0 "                                                               *"    0   24    5    0    0    1         
+                      VectorStateMach[0]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    Name                               STRING[15]    0 "                                                           'TVL'"    2    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                              12"    2    3    1   10    0    0         
+                                  fParam                               REAL[0..7]    0 "                                                               *"    2    8    8    0    0    1         
+                               fParam[0]                                     REAL    0 "                                                             5.0"    3    8    1   10    0    0         
+                               fParam[1]                                     REAL    0 "                                                             1.0"    3    8    1   10    0    0         
+                               fParam[2]                                     REAL    0 "                                                           300.0"    3    8    1   10    0    0         
+                               fParam[3]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                               fParam[4]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                    xCMD                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                               StatusReg                                    UDINT    0 "                                                    16#023F_8400"    2    7    1   16    0    0         
+                                  Status                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                              actPosDINT                                     DINT    0 "                                                          462733"    2    4    1   10    0    0         
+                               VirStatus                                    UDINT    0 "                                                    16#0002_0001"    2    7    1   16    0    0         
+                                   Param                               DINT[0..7]    0 "                                                               *"    2    4    8    0    0    1         
+                                Param[0]                                     DINT    0 "                                                           10000"    3    4    1   10    0    0         
+                                Param[1]                                     DINT    0 "                                                            5000"    3    4    1   10    0    0         
+                      VectorStateMach[1]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                               *"    2    9   16    1    0    0         
+                                  fParam                               REAL[0..7]    0 "                                                               *"    2    8    8    0    0    0         
+                               fParam[0]                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               fParam[1]                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               fParam[2]                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               fParam[3]                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                      VectorStateMach[2]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                               *"    2    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                  Status                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                      VectorStateMach[3]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                               *"    2    9   16    1    0    0         
+                      VectorStateMach[4]                     StateVectorProxy_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                    Name                               STRING[15]    0 "                                                            'WF'"    2    9   16    1    0    0         
+                                   InVal                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                    Mode                                      INT    0 "                                                               5"    2    3    1   10    0    0         
+                                  Status                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                                  fParam                               REAL[0..7]    0 "                                                               *"    2    8    8    0    0    0         
+                               fParam[2]                                     REAL    0 "                                                          4750.0"    3    8    1   10    0    0         
+                               fParam[3]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                               fParam[4]                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                              AHC_Margin                                     REAL    0 "                                                             0.0"    0    8    1   10    1    0         
+                           HardInit_Step                                     UINT    0 "                                                              50"    0    6    1   10    0    0         

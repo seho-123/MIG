@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">DataMgrLib.c</Object>
+    <Object Type="File">DataMgrLib.h</Object>
+    <Object Type="File">statelib.c</Object>
+    <Object Type="File">statelib.h</Object>
+    <Object Type="File">WSI_lib.c</Object>
+    <Object Type="File">WSI_types.h</Object>
+    <Object Type="File">xstring.c</Object>
+    <Object Type="File">xstring.h</Object>
+    <Object Type="File">LoggerLib.c</Object>
+    <Object Type="File">LoggerLib.h</Object>
+    <Object Type="Package">utilityLib</Object>
+    <Object Type="Package">arclink</Object>
+    <Object Type="Package">libUDP</Object>
+  </Objects>
+</Package>

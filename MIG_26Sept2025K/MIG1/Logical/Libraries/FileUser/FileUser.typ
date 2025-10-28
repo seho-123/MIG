@@ -1,0 +1,88 @@
+
+TYPE
+	FILE_EXT : 	STRUCT 
+		Name : STRING[4];
+	END_STRUCT;
+	FILEOUT_IF : 	STRUCT 
+		OpenDirectory : BOOL;
+		OpenFile : UINT;
+		CopyFile : BOOL;
+		DeleteFile : BOOL;
+		PageUp : BOOL;
+		SaveAs : BOOL;
+		Save : BOOL;
+		PageDown : BOOL;
+		Refresh : BOOL;
+		ClearStatus : BOOL;
+		SelectedFileNum : UINT;
+		SelectedFile : STRING[34];
+		SelectedDirectory : STRING[34];
+		NewFileNameBase : STRING[30];
+		NewFileName : STRING[34];
+		FileSize : UDINT;
+		ExtensionIndex : USINT;
+		Extension : ARRAY[0..4] OF FILE_EXT;
+		StreamEnable : USINT;
+		StreamGo : USINT;
+		StreamClose : USINT;
+		StreamOffset : USINT;
+		StreamLength : USINT;
+		Stream_adr : USINT;
+		pDestDev : STRING[20];
+	END_STRUCT;
+	FILEMGR_obj : 	STRUCT 
+		Message : STRING[50];
+		Error : USINT;
+		Device : STRING[20];
+		Path : STRING[80];
+		Status : SINT;
+		FileLength : UDINT;
+		OpenFileName : STRING[35];
+		OpenFileNum : USINT;
+		OpenFileDate : DATE_AND_TIME;
+		Type : UINT;
+		BufferSize : UDINT;
+		Data_adr : UDINT;
+		MaxDirectoryFiles : UINT;
+		_if_in_adr : UDINT;
+		_if_out_adr : UDINT;
+		_fname_adr : UDINT;
+		_ftp_adr : UDINT;
+		_state : UINT;
+		_error : UINT;
+		_fileptr : UDINT;
+		_numfiles : UDINT;
+		_infostatus : UINT;
+		_readstatus : UINT;
+		_fileopenstatus : UINT;
+		_filereadstatus : UINT;
+		_filecreatestatus : UINT;
+		_filewritestatus : UINT;
+		_userfileptr : UINT;
+		_dirinfo : DirInfo;
+		_dirread : DirRead;
+		_fileopen : FileOpen;
+		_fileread : FileRead;
+		_filedelete : FileDelete;
+		_filecopy : FileCopy;
+		_filecreate : FileCreate;
+		_filewrite : FileWrite;
+		_fileclose : FileClose;
+	END_STRUCT;
+	FILEIN_IF : 	STRUCT 
+		TotalPageFileNum : UINT;
+		TotalDirectoryFileNum : UINT;
+		FileNames : ARRAY[0..19] OF STRING[34];
+		FileDates : ARRAY[0..19] OF DATE_AND_TIME;
+		FileSizes : ARRAY[0..19] OF UDINT;
+		OpenFileName : STRING[34];
+		PageNum : USINT;
+		ExtensionIndex : USINT;
+		Status : SINT;
+		FileLength : UDINT;
+		BufferSize : UDINT;
+		StreamReady : BOOL;
+		StreamError : BOOL;
+		Message : STRING[49];
+	END_STRUCT;
+END_TYPE

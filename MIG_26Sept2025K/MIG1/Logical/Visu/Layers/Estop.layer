@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Estop">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.visESTOP]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="800"/>
+  <TextGroup>
+    <TextLayer LanguageId="en">
+      <Text ID="101218" Value="ESTOP ACTIVE"/>
+      <Text ID="101219" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="101218" Value="Text_1"/>
+      <Text ID="101219" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="101218" Value=""/>
+      <Text ID="101219" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="101218" Value=""/>
+      <Text ID="101219" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="101218" Value=""/>
+      <Text ID="101219" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt-BR">
+      <Text ID="101218" Value=""/>
+      <Text ID="101219" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="pt">
+      <Text ID="101218" Value=""/>
+      <Text ID="101219" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sv">
+      <Text ID="101218" Value=""/>
+      <Text ID="101219" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="101218" Value="0"/>
+      <Index ID="101219" Value="1"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001004" Name="Text_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="371"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="109"/>
+      <Property Name="Width" Value="800"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="51"/>
+      <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+      <Property Name="Height" Value="206"/>
+      <Property Name="Left" Value="186"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="125"/>
+      <Property Name="Width" Value="423"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="51"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial24pxBold]"/>
+      <Property Name="ForeColor" Value="16"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="339"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="174"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.BR_Modbus.register_value]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="97"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.BR_Modbus.coil_values[0]]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[DotBlink]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="40"/>
+      <Property Name="Left" Value="370"/>
+      <Property Name="Shape" Value="Ellipse"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+      <Property Name="Top" Value="265"/>
+      <Property Name="Width" Value="40"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

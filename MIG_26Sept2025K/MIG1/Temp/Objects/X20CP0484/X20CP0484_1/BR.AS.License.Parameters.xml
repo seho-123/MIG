@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/AM=* /DAIP=192.168.10.123 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\projects\MIG\MIG\MIG.apj</ApjFullFileName>
+    <ProjectName>MIG</ProjectName>
+    <ActiveConfigurationName>X20CP0484</ActiveConfigurationName>
+    <LicenseDataFolder>C:\projects\MIG\MIG\Temp\Objects\X20CP0484\X20CP0484_1</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

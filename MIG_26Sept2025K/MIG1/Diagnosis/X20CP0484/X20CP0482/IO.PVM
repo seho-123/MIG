@@ -1,0 +1,26 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=IO 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=193 Scope=270 Force=254 Index=13 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                              SetDefault                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                               TravelJog                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    1         
+                                      IN                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,Stop
+
+                                     OUT                               BOOL[0..3]    0 "                                                               *"    1    1    4    0    0    1         
+                                  OUT[0]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                                  OUT[1]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                                  OUT[2]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                                  OUT[3]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                                 Forward                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Reverse                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Stop                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                             TravelSpeed                           ReversingRelay    0 "                                                               *"    0   24    1    0    0    1         
+                                      IN                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,Stop
+
+                                     OUT                               BOOL[0..3]    0 "                                                               *"    1    1    4    0    0    1         
+                                  OUT[0]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                                  OUT[1]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                                  OUT[2]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                                  OUT[3]                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                                 Forward                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Reverse                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Stop                                     BOOL    3 "                                                            TRUE"    1    1    1    2    0    0         

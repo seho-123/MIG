@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/XMLp_Lib/XMLp_Lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/XMLp_Lib/XMLp_Lib.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun

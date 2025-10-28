@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Jog_Txt">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="1"/>
+  <TextSnippets>
+    <TextSnippet ClassId="0x00002002" Name="JogMode_Snippet">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HMI.HMI_JogMode_Txt]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+    <TextSnippet ClassId="0x00002002" Name="ErrorTXT_Snippet">
+      <Property Name="Datapoint" Value="Source[global].Variable[DataSource.HMI_Error_Txt]"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+    </TextSnippet>
+  </TextSnippets>
+  <TextLayer LanguageId="en">
+    <Text ID="114917" Value="Sequence Stopped {JogMode_Snippet}"/>
+    <Text ID="114918" Value="Sequence Running "/>
+    <Text ID="119871" Value="Local Head Mode - {JogMode_Snippet}"/>
+    <Text ID="122296" Value="Indexing "/>
+    <Text ID="122297" Value="Sequence Running REV"/>
+    <Text ID="124718" Value="Index Pre Delay"/>
+    <Text ID="124719" Value="Index Post Delay"/>
+    <Text ID="141843" Value="Hardware Restart"/>
+    <Text ID="141844" Value="{ErrorTXT_Snippet}"/>
+    <Text ID="149239" Value="ESTOP "/>
+    <Text ID="214483" Value="Wait Prepurge"/>
+    <Text ID="214484" Value="Wait ARC"/>
+    <Text ID="366481" Value="Hardware Init"/>
+    <Text ID="377636" Value="Torch Break !!!!"/>
+    <Text ID="394613" Value="Wait Touch"/>
+    <Text ID="472707" Value="Wait ESAB Start"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="114917" Value=""/>
+    <Text ID="114918" Value=""/>
+    <Text ID="119871" Value=""/>
+    <Text ID="122296" Value=""/>
+    <Text ID="122297" Value=""/>
+    <Text ID="124718" Value=""/>
+    <Text ID="124719" Value=""/>
+    <Text ID="141843" Value=""/>
+    <Text ID="141844" Value=""/>
+    <Text ID="149239" Value=""/>
+    <Text ID="214483" Value=""/>
+    <Text ID="214484" Value=""/>
+    <Text ID="366481" Value=""/>
+    <Text ID="377636" Value=""/>
+    <Text ID="394613" Value=""/>
+    <Text ID="472707" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="114917" Value=""/>
+    <Text ID="114918" Value=""/>
+    <Text ID="119871" Value=""/>
+    <Text ID="122296" Value=""/>
+    <Text ID="122297" Value=""/>
+    <Text ID="124718" Value=""/>
+    <Text ID="124719" Value=""/>
+    <Text ID="141843" Value=""/>
+    <Text ID="141844" Value=""/>
+    <Text ID="149239" Value=""/>
+    <Text ID="214483" Value=""/>
+    <Text ID="214484" Value=""/>
+    <Text ID="366481" Value=""/>
+    <Text ID="377636" Value=""/>
+    <Text ID="394613" Value=""/>
+    <Text ID="472707" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="114917" Value=""/>
+    <Text ID="114918" Value=""/>
+    <Text ID="119871" Value=""/>
+    <Text ID="122296" Value=""/>
+    <Text ID="122297" Value=""/>
+    <Text ID="124718" Value=""/>
+    <Text ID="124719" Value=""/>
+    <Text ID="141843" Value=""/>
+    <Text ID="141844" Value=""/>
+    <Text ID="149239" Value=""/>
+    <Text ID="214483" Value=""/>
+    <Text ID="214484" Value=""/>
+    <Text ID="366481" Value=""/>
+    <Text ID="377636" Value=""/>
+    <Text ID="394613" Value=""/>
+    <Text ID="472707" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="114917" Value=""/>
+    <Text ID="114918" Value=""/>
+    <Text ID="119871" Value=""/>
+    <Text ID="122296" Value=""/>
+    <Text ID="122297" Value=""/>
+    <Text ID="124718" Value=""/>
+    <Text ID="124719" Value=""/>
+    <Text ID="141843" Value=""/>
+    <Text ID="141844" Value=""/>
+    <Text ID="149239" Value=""/>
+    <Text ID="214483" Value=""/>
+    <Text ID="214484" Value=""/>
+    <Text ID="366481" Value=""/>
+    <Text ID="377636" Value=""/>
+    <Text ID="394613" Value=""/>
+    <Text ID="472707" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt-BR">
+    <Text ID="114917" Value=""/>
+    <Text ID="114918" Value=""/>
+    <Text ID="119871" Value=""/>
+    <Text ID="122296" Value=""/>
+    <Text ID="122297" Value=""/>
+    <Text ID="124718" Value=""/>
+    <Text ID="124719" Value=""/>
+    <Text ID="141843" Value=""/>
+    <Text ID="141844" Value=""/>
+    <Text ID="149239" Value=""/>
+    <Text ID="214483" Value=""/>
+    <Text ID="214484" Value=""/>
+    <Text ID="366481" Value=""/>
+    <Text ID="377636" Value=""/>
+    <Text ID="394613" Value=""/>
+    <Text ID="472707" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pt">
+    <Text ID="114917" Value=""/>
+    <Text ID="114918" Value=""/>
+    <Text ID="119871" Value=""/>
+    <Text ID="122296" Value=""/>
+    <Text ID="122297" Value=""/>
+    <Text ID="124718" Value=""/>
+    <Text ID="124719" Value=""/>
+    <Text ID="141843" Value=""/>
+    <Text ID="141844" Value=""/>
+    <Text ID="149239" Value=""/>
+    <Text ID="214483" Value=""/>
+    <Text ID="214484" Value=""/>
+    <Text ID="366481" Value=""/>
+    <Text ID="377636" Value=""/>
+    <Text ID="394613" Value=""/>
+    <Text ID="472707" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sv">
+    <Text ID="114917" Value=""/>
+    <Text ID="114918" Value=""/>
+    <Text ID="119871" Value=""/>
+    <Text ID="122296" Value=""/>
+    <Text ID="122297" Value=""/>
+    <Text ID="124718" Value=""/>
+    <Text ID="124719" Value=""/>
+    <Text ID="141843" Value=""/>
+    <Text ID="141844" Value=""/>
+    <Text ID="149239" Value=""/>
+    <Text ID="214483" Value=""/>
+    <Text ID="214484" Value=""/>
+    <Text ID="366481" Value=""/>
+    <Text ID="377636" Value=""/>
+    <Text ID="394613" Value=""/>
+    <Text ID="472707" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="114917" Value="0"/>
+    <Index ID="114918" Value="11"/>
+    <Index ID="119871" Value="200"/>
+    <Index ID="122296" Value="20"/>
+    <Index ID="122297" Value="30"/>
+    <Index ID="124718" Value="15"/>
+    <Index ID="124719" Value="25"/>
+    <Index ID="141843" Value="300"/>
+    <Index ID="141844" Value="301"/>
+    <Index ID="149239" Value="302"/>
+    <Index ID="214483" Value="1"/>
+    <Index ID="214484" Value="3"/>
+    <Index ID="366481" Value="303"/>
+    <Index ID="377636" Value="304"/>
+    <Index ID="394613" Value="2"/>
+    <Index ID="472707" Value="5"/>
+  </IndexMap>
+</TextGroup>

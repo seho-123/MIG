@@ -1,0 +1,18 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/projects/MIG/MIG/Physical/X20CP0484/X20CP0484_1/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="ESAB" Source="ESAB.prg" />
+      <Task Name="LincolnPS" Source="LincolnPS.prg" />
+      <Task Name="UDP_Client" Source="UDP_Client.prg" />
+      <Task Name="TML_srv" Source="TML_srv.prg" />
+      <Task Name="MainProc" Source="MainProc.prg" />
+      <Task Name="Master" Source="Master.prg" />
+      <Task Name="HMI" Source="HMI.prg" />
+      <Task Name="Program" Source="Program.prg" />
+      <Task Name="UDP" Source="UDP.prg" />
+      <Task Name="TcpCam" Source="TcpCam.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

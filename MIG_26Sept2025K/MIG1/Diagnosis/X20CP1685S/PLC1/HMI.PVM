@@ -1,0 +1,13 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=HMI 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=277 Type=234 Scope=126 Force=27 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                             AccessLevel                                     UINT    0 "                                                               0"    0    6    1   10    0    0         
+                          HMI_Report_Vis                                     UINT    0 "                                                               1"    0    6    1   10    1    0         
+                            DriveVer_Txt                         STRING[63][0..5]    0 "                                                               *"    0    9   64    0    0    1         
+                         DriveVer_Txt[0]                               STRING[63]    0 "                                                              ''"    1    9   64    1    0    0         
+                         DriveVer_Txt[1]                               STRING[63]    0 "                                                              ''"    1    9   64    1    0    0         
+                         DriveVer_Txt[2]                               STRING[63]    0 "                                                              ''"    1    9   64    1    0    0         
+                         DriveVer_Txt[3]                               STRING[63]    0 "                                                              ''"    1    9   64    1    0    0         
+                         DriveVer_Txt[4]                               STRING[63]    0 "                                                              ''"    1    9   64    1    0    0         
+                         DriveVer_Txt[5]                               STRING[63]    0 "                                                              ''"    1    9   64    1    0    0         
+                   HMI_Lock_Seq_Stat_vis                                     UINT    0 "                                                               1"    0    6    1   10    1    0         

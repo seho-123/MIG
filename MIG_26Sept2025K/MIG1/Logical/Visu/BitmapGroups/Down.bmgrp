@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.3.127 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Down">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="10"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="414" Value="Source[local].Bitmap[down_pressed]"/>
+    <BitmapRef ID="415" Value="Source[local].Bitmap[control_button_active]"/>
+    <BitmapRef ID="417" Value="Source[local].Bitmap[down_active]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="414" Value="1"/>
+    <Index ID="415" Value="0"/>
+    <Index ID="417" Value="2"/>
+  </IndexMap>
+</BitmapGroup>

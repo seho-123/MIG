@@ -1,0 +1,5 @@
+VAR
+	open : FRM_xopen;
+	write : FRM_write;
+	buffer : STRING[80];
+END_VAR

@@ -1,0 +1,16 @@
+﻿PROGRAM Main
+{ VariableWorksheet := 'Variables' }
+﻿{GroupDefinition(0,'NewGroup')}
+
+VAR_INPUT {Group(0)}
+END_VAR
+
+VAR_OUTPUT {Group(0)}
+END_VAR
+
+VAR {Group(0)}
+END_VAR
+
+{ CodeWorksheet := 'Code', Type := '.fbd' }
+﻿
+END_PROGRAM
